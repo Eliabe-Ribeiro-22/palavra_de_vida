@@ -87,7 +87,8 @@ body{
 
      width: 100%;
      height:100%;
-
+/* verificar o que deve ser feito no
+ código abaixo para que o botão do What's app apareça em uma camada a frente desse fundo(background e background)
      background: var(---color-background);
      
      background: linear-gradient(green, deepskyblue);
@@ -98,18 +99,21 @@ body{
      
      background-image: linear-gradient(45deg, white, darkblue, purple, pink, red);
      background-image: linear-gradient(45deg, deepskyblue, green);
-     /*Imagens Bíblia e Código (Code Universe)*
+Imagens Bíblia e Código (Code Universe)*
      Temos 2 opções: 1 Bíblia sempre aparecendo: -background-attachment: fixed
                         OU
-                     Muitas Bíblias, sendo que deixamos de ver algumas para ver outras: background-attachment: scroll; */
-     background-image: 
+                     Muitas Bíblias, sendo que deixamos de ver algumas 
+                     para ver outras: background-attachment: scroll;
+                     
+      background-image: 
          url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAr1i-RsqPnIxEDonfgFSNDazjyiI8U4bj9g&usqp=CAU), 
          url(https://www.codeuniverse.com.br/assets/img/code.png);
      background-repeat: repeat;
      background-size: 25rem,  10rem;
      background-position: top, bottom;
-/*     Deixa a imagem Bíblia fixa em relação ao ViewPort, ainda que esteja cubrindo a imagem código(Code Universe).*/
+Deixa a imagem Bíblia fixa em relação ao ViewPort, ainda que esteja cubrindo a imagem código(Code Universe).*/
      background-attachment: scroll;
+     */
      color: var(---color-primary);
 
      font-family: var(---font-primary);
