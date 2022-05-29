@@ -46,8 +46,7 @@
 				<span>
 					<h1 title="Associação Palavra de Vida">SITE ASSOCIAÇÃO PALAVRA DE VIDA - WEB</h1>
  					
- 					<h2 class="h2VenhaSerMantenedor"> <em> <strong> Venha ser um Mantenedor deste Projeto ! </strong> </em> </h2>
-		    </aside>	
+ 					<h2 class="h2VenhaSerMantenedor"> <em> <strong> Venha ser um Mantenedor deste Projeto ! </strong> </em> </h2>	
 		</section>
 		<section class="QuemSomos">
 			<article>
