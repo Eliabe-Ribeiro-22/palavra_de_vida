@@ -13,7 +13,7 @@
     {{-- Fonts --}}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 
-    <title>Início</title>
+    <title>Palavra de Vida</title>
 
     {{-- Icon --}}
     <link rel="icon" type="image/x-icon" href="/igreja.ico">

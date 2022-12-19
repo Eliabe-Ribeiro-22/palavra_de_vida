@@ -4,9 +4,9 @@
 
 @section('corpo')
     <div class="institucional-pg">
-        <h2>Sobre nós</h2>
-        Instituição religiosa sem fins lucrativos que visa o bem social e
-        espiritual de toda a comunidade.
-        {{-- update --}}
+        <h2>Associação Palavra de Vida</h2>
+
+        Somos uma entidade não-governamental, que busca distribuir literaturas a população, sem distinção de sexo, religião, classe social, etc.<br/> 
+        Temos objetivo de arrecadar fundos para adquirir literaturas.
     </div>
 @endsection

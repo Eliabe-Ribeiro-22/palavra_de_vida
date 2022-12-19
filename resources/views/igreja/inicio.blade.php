@@ -8,8 +8,10 @@
         <h1>Seja bem vindo ao nosso site!</h1>
     </div>
     <div>
+         Espaço para vídeo
         <video class="video-inicial" autoplay muted loop>
-            <source src="/assets/videos/video.mp4" type="video/mp4">
+            <source src="#" type="video/mp4">
+
         </video>
     </div>
 

@@ -5,6 +5,7 @@
 
 <main>
     @yield('corpo')
+    
 </main>
 
 <x-igreja.footer.footer />
