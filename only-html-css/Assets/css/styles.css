@@ -1,0 +1,390 @@
+﻿/*Declarando a fonte RobotoMono, com alguns estilos*/
+@font-face{
+   font-family: Roboto;
+   src: url("Assets/Fonts/static/RobotoMono-Regular.ttf");
+/*   Converter a Fonte com o Conversor de Fontes e inseri-la aqui*/
+   src: url("Assets/Fonts/static/RobotoMono-Regular.ttf");
+}
+
+@font-face{
+   font-family: "Roboto Italic";
+   src: url("Assets/Fonts/static/RobotoMono-Italic.ttf");
+}
+
+@font-face{
+       font-family: "Roboto Thin";
+       src: url("Assets/Fonts/static/Roboto-Thin.ttf");
+       src: url("Assets/Fonts/static/Roboto-Thin.woff");
+          }
+
+@font-face{
+      font-family: "Roboto Black Italic";
+      src: url(Assets/Fonts/static/RobotoMono-BoldItalic.ttf);
+          }
+
+   /*Cores das divs para o Site
+title: azul:   background-color:#058BC0;
+azul claro #2C5288;
+laranja forte #F2AE30;
+bege #F9E4CB;*/
+
+/*Cores do Site*/
+  :root{
+   ---color-primary: #643206;
+   ---border-color-primary: rgb(100,50,6,1);
+   ---color-title: #CCA60D;
+   ---font-primary: "Roboto Thin", "Verdana", "serif", "sans-serif";
+   ---color-secondary: #FFF/*Escolher uma cor*/;
+   ---color-background: green;
+   ---white: #FFF; 
+   /*Para quê tem essa variavél color-div*/
+   ---color-div: #C27D0C;
+   ---color-div-bandeiras: #add8e6; 
+   ---black: #000000;
+   ---blue: #0237FE;
+   ---color-desenvolvedor: #0d57fd;
+   ---background-desenvolvedor: #fffca7;
+   ---color-rodape: #3746fd;
+   ---color-a: #ffff00;
+      }
+      /*Configuração para Desktop*/
+*{
+   box-sizing: border-box;
+   text-align: center;
+}
+
+header
+{
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+div{
+   margin: 0;
+   margin: 0 auto;
+
+}
+ol{
+   list-style-type: none;
+}
+
+ol li{
+      display: inline;
+      padding: 30px;
+      text-align: center;
+      background: #aaa;
+      cursor: pointer;
+}
+
+ol li:hover{
+   background-color: lightblue;
+}
+
+body{
+     margin: 0;
+     padding: 0;
+
+     width: 100%;
+     height:100%;
+/* verificar o que deve ser feito no
+ código abaixo para que o botão do What's app apareça em uma camada a frente desse fundo(background e background)
+     background: var(---color-background);
+     
+     background: linear-gradient(green, deepskyblue);
+     background: webkit-linear-gradient(green, deepskyblue);
+     background: moz-linear-gradient(green, deepskyblue);
+     background: ms-linear-gradient(green, deepskyblue);
+     background: o-linear-gradient(green, deepskyblue);
+     
+     background-image: linear-gradient(45deg, white, darkblue, purple, pink, red);
+     background-image: linear-gradient(45deg, deepskyblue, green);
+Imagens Bíblia e Código (Code Universe)*
+     Temos 2 opções: 1 Bíblia sempre aparecendo: -background-attachment: fixed
+                        OU
+                     Muitas Bíblias, sendo que deixamos de ver algumas 
+                     para ver outras: background-attachment: scroll;
+                     
+      background-image: 
+         url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAr1i-RsqPnIxEDonfgFSNDazjyiI8U4bj9g&usqp=CAU), 
+         url(https://www.codeuniverse.com.br/assets/img/code.png);
+     background-repeat: repeat;
+     background-size: 25rem,  10rem;
+     background-position: top, bottom;
+Deixa a imagem Bíblia fixa em relação ao ViewPort, ainda que esteja cubrindo a imagem código(Code Universe).*/
+     background-attachment: scroll;
+     */
+     color: var(---color-primary);
+
+     font-family: var(---font-primary);
+     font-size: clamp(20px, 9 vh, 400%);
+     }
+
+#HeaderQuemSomos{
+   font-family: "Roboto Italic";
+   font-size: 50 vh;
+}
+
+#HeaderContato{
+      font-family: "Roboto Black Italic";
+      font-size: 5rem;
+              }
+
+#HeaderSejaMantenedor{
+      color: var(---blue);
+      font-family: cursive, Verdana, Helvetica, Arial;
+      font-size: 100px;
+                     }
+
+h1{
+/*Margin com 3rem(para todos) e arrumada para compensar o título h1 que está a esquerda e não centralizado, centralizando essa tag*/
+   margin: 2rem 3rem 2rem 6rem;
+   
+  /* margin: 3rem;*/
+   padding: 3rem 3rem 2rem 3rem;
+  
+   /*background-color:#058BC0;*/
+
+   background-color: rgba(51, 51, 51, 0.15);
+   box-shadow: 3px 2px 5px rgba(17, 17, 17, 0.55);
+   backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(2rem);
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   color: var(---white);
+   font-size: clamp(3rem, 6rem, 12rem);
+
+   
+   text-shadow: 7px 7px 1 rem blue, 
+   /*A borda só não aparece porque o site não reconhece a cor*/
+    /*borda do título*/
+     /*Top*/
+    -3px 0 pink, 
+     /*Right*/
+     0 3px green,
+     /*Bottom*/
+     2,5px 0 darkgree,
+     /*Left*/
+     0 -3px darkblue;
+}
+
+#BotaoHamburguer{
+   color: var(---font-primary);
+   font-family: "Roboto";
+   font-size: clamp(30px, 13 vh, 500%);
+                }
+h2{
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   
+ /*  background-color: #F9E4CB;*/
+   
+   color: var(---color-title);
+   Font-family: "Roboto Thin", cursive, fantasy, sans-serif, serif;
+   /*Arrumar*/
+   font-size: clamp(20px, 50px, 100px);
+  } 
+
+.h2VenhaSerMantenedor{
+
+   background-color: rgba(51, 51, 51, 0.15);
+   box-shadow: 3px 2px 5px rgba(17, 17, 17, 0.55);
+   backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.btnSejaSocio-Mantenedor{
+   width: 200px;
+   padding: 5px 10px;
+   text-align: center;
+   color: black;
+
+   /*Escolher a cor de fundo do Botão*/
+   background: peachpuff;
+
+   border: 2px solid green;
+   border-radius: 20px;
+
+   cursor: pointer;
+}
+
+.btnSejaSocio-Mantenedor:hover{
+   background: yellow;
+   border-color: deepskyblue;
+}
+
+p{
+   align-items: center;
+   justify-content: center;
+
+   color: var(---color-primary);
+   font-family: var(---font-primary);
+   font-size: clamp(2rem, 3rem, 90%);
+}
+
+.sectionWebSite{	
+      box-shadow: 10px -10px 5px blue, -10px 10px 5px blue;
+      background-color: yellow;
+      border-radius: 40px;
+      margin: 0 auto;
+}
+
+#ArteQuemSomos{
+      margin: 0;
+		width: 65rem;
+		height: 20rem;
+		align-items: center;
+		justify-content:center;
+		margin: 2rem auto;
+		padding: 2px 2px 2px 2px;
+
+}
+
+#Objetivo{ 
+   margin: 2rem 1rem;
+   padding: 2px;
+
+   align-items: center;
+   justify-content: center;
+      
+   color: var(---color-primary);
+   font-family: var(---font-primary);
+   font-size: clamp(2rem, 3rem, 90%);
+   background-color: yellow;
+   box-shadow: 10px -10px 5px blue, -10px 10px 5px blue;
+   border-radius: 40px;
+        }
+
+.TituloObjetivo{
+   text-shadow: 13px 13px 9px blue;
+}
+
+.textoObjetivo{
+   padding: 2px 4px;
+   color: var(---color-primary);
+   font-family: var(---font-primary);
+   font-size: clamp(2rem, 3rem, 90%);
+              }
+
+.ulTextoObjetivo{
+      list-style-position: inside;
+}
+
+#ArteMissao{
+   align-items: center;
+   justify-content: center;
+
+   margin: 2rem auto;
+   padding: 2px;
+   float: lefts;
+   border-radius: 40px;
+}
+
+#valores{
+   color: red;
+   font-family: sans-serif, serif;
+   font: clamp(20px, 30px, 50px);
+        }
+
+.DivTextsValores{
+    align-items: center;
+  justify-content: space-between;
+                }
+
+.DivPValores{
+   border: 1 rem solid black;
+}
+
+.Valores{
+     height: 500px;
+}
+
+.DivImgValores{
+         position: absolute;
+
+         margin: 20px 33rem;
+         padding: 20px;
+}
+
+.DivValores{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+      margin:  1rem 5px 5px 5px;
+      padding: 3px 0px 1px 3px;
+      
+      background-color: peachpuff;
+      width: 100px;
+      height: 100px;
+
+      border: 1px solid black;
+      border-radius: 30%;
+      float: left;
+}
+
+#Familia{
+   border-radius: 1rem solid black;
+}
+
+ .pValores{ 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+          }
+
+img{
+   justify-content: center;
+   display: flex;
+   align-items: center;
+}
+
+#LiteraturasEstados{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      margin: 20px;
+                   }
+
+.Bandeiras{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   background-color: var(---color-div-bandeiras);
+
+   border-top: 5rem solid deepskyblue;
+   border-bottom: 5rem solid greenyellow;
+   border-left: 5rem solid darkmagenta;
+   border-right: 5rem solid indianred;
+
+   border-radius: 30%;
+} 
+footer{
+   margin: 0;
+   padding: 0;
+   height: 100px;
+   width: 100%;
+   background: var(---background-desenvolvedor);
+}
+.rodapé{
+   height: 50%;
+   width: 100%;
+   color: var(---color-rodape);
+   /*Teste da Aula*/
+   font-family: Roboto;
+   font-size: clamp(10px, 100%, 110px);
+}
+
+#Desenvolvedor{
+      width: 100%;
+      height: 50%;
+      color:var(---color-desenvolvedor);
+      font-family: "Comic Sans MS", var(---font-primary), Verdana, Arial;
+      font-size: clam(10px, 30px, 110px);
+              }
