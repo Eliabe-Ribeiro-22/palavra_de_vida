@@ -5,7 +5,7 @@
 
 @section('corpo')
     <div class="slogan-inicio">
-        <h1>Seja bem vindo ao nosso site!</h1>
+        <h1>Seja mantenedor deste Projeto!</h1>
     </div>
     <div>
          Espaço para vídeo
@@ -15,7 +15,6 @@
         </video>
     </div>
 
-    <x-igreja.inicio.api-versiculo :dailyVerse="$dailyVerse"/>
     <div class="projetos-igreja">
         <h2>Nossos Projetos</h2>
 
