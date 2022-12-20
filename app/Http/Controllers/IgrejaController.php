@@ -27,70 +27,9 @@ class IgrejaController extends Controller
         return view('igreja.reunioes');
     }
 
-    public function index()
-    {
-        try {
-            // API BIBLIA - Vou desativar, pois vou trabalhar com CSS
-            // Ela tem limite de requisicoes por hora
-            #$api = "https://www.abibliadigital.com.br/api/verses/nvi/sl/91/1";
-            #$dailyVerse = json_decode(file_get_contents($api), true);
-            // $dailyVerse = ['a', 'b'];
-            $dailyVerse = [
-                'book' => [
-                    'abbrev' => 'en',
-                    'name' => 'Salmos',
-                    'author' => 'David, Moisés, Salomão',
-                    'group' => 'Poéticos',
-                    'version' => 'nvi',
-                ],
-                'chapter' => 91,
-                'number' => 1,
-                'text' => 'Aquele que habita no abrigo do Altíssimo e descansa à sombra do Todo-poderoso',
-            ];
-            return view('igreja.index', ['dailyVerse' => $dailyVerse]);
-        } catch (Exception $e) {
-            echo $e->getMessage();
-        }
-    }
-
-    public function institucional_create()
-    {
-        try {
-            return view('igreja.institucional');
-        } catch (Exception $e) {
-            echo 'Ocorreu um erro ao exibir os nossos eventos!';
-            echo '</br>';
-        }
-    }
-
-    public function form_create()
-    {
-        try {
+    
+    public function form_create(){
             return view('igreja.form');
-        } catch (Exception $e) {
-            echo 'Ocorreu um erro ao exibir o formulário de contato';
-            echo '</br>';
-        }
-    }
-
-    public function projetos_create()
-    {
-        try {
-            return view('igreja.projetos');
-        } catch (Exception $e) {
-            echo 'Ocorreu um erro ao exibir os nossos eventos!';
-            echo '</br>';
-        }
-    }
-
-    public function nossas_reunioes_create()
-    {
-        try {
-            return view('igreja.nossas-reunioes');
-        } catch (Exception $e) {
-            echo 'Ocorreu um erro ao exibir os nossos eventos!';
-            echo '</br>';
-        }
     }
 
     public function sendForm(Request $request)

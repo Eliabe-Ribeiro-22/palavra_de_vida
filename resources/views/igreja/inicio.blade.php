@@ -5,7 +5,7 @@
 
 @section('corpo')
     <div class="slogan-inicio">
-        <h1>Seja mantenedor deste Projeto!</h1>
+        <h1>Seja bem-vindo ao site!</h1>
     </div>
     <div>
          Espaço para vídeo
@@ -14,6 +14,7 @@
 
         </video>
     </div>
+    <a href="#">Seja um sócio-mantenedor deste projeto!</a>
 
     <div class="projetos-igreja">
         <h2>Nossos Projetos</h2>
