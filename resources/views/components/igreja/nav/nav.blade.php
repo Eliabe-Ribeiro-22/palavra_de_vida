@@ -10,8 +10,8 @@
     <ul class="nav-links">
         <li class="nav-btn"><a href="{{ route('main.page') }}">Início</a></li>
         <li class="nav-btn"><a href="{{ route('institutional.page') }}">Institucional</a></li>
-        <li class="nav-btn"><a href="{{ route('contact.page') }}">Contato</a></li>
-        <li class="nav-btn"><a href="{{ route('projects.page') }}">Seja mantenedor</a></li>
+        <li class="nav-btn"><a href="{{ route('contact.page') }}">Seja mantenedor</a></li>
+        <li class="nav-btn"><a href="{{ route('projects.page') }}">Divulgação</a></li>
     
     </ul>
     <div class="burger">
