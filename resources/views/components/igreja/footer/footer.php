@@ -1,4 +1,10 @@
 <footer>
+    <div id="btn-whats">
+        <a href="https://web.whatsapp.com/send/?phone=5549988477611&text=Tenho+interesse+em+ser+sócio-mantenedor+deste+projeto&type=phone_number&app_absent=0" target="_blank">
+            <img src="/assets/img/whats.png" alt="Logo Whats" target="_blank">
+        </a>
+    </div>
+
     <div class="boxs">
         <h2>Contatos</h2>
         <ul>
@@ -33,7 +39,7 @@
         <h2>Redes sociais</h2>
         <ul>
             <li><a href="mailto:palavradevida.associacao@gmail.com" target="_blank">Gmail</a></li>
-            <li><a href="https://web.whatsapp.com/send?phone=5549988477611" target="_blank">WhatsApp</a></li>
+            <li><a href="https://web.whatsapp.com/send/?phone=5549988477611&text=Tenho+interesse+em+ser+sócio-mantenedor+deste+projeto&type=phone_number&app_absent=0" target="_blank">WhatsApp</a></li>
         </ul>
     </div>
 

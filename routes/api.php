@@ -3,6 +3,9 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+// Chamando Controllers
+use App\Http\Controllers\IgrejaController;
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -17,4 +20,10 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+// Rotas da barra de navegação
+Route::get('/institucional', [IgrejaController::class, 'institutionalPg'])->name('institutional.page');
+Route::get('/contato', [IgrejaController::class, 'form_create'])->name('contact.page');
+Route::get('/projetos', [IgrejaController::class, 'projectsPg'])->name('projects.page');
+Route::get('/reunioes', [IgrejaController::class, 'reunionsPg'])->name('reunions.page');
 
