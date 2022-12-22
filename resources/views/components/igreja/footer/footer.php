@@ -1,10 +1,13 @@
 <footer>
-    <div id="btn-whats">
+<div id="btn-whats">
         <a href="https://web.whatsapp.com/send/?phone=5549988477611&text=Tenho+interesse+em+ser+sócio-mantenedor+deste+projeto&type=phone_number&app_absent=0" target="_blank">
-            <img src="/assets/img/whats.png" alt="Logo Whats" target="_blank">
+            <img id="img-whats" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png" alt="Logo Whats" target="_blank">
         </a>
     </div>
 
+        <script>window.rwbp={email:'pr.volni@hotmail.com',phone:'+55 49 988477611', message:"Olá, fale conosco pelo What's App para saber mais informações!",lang:'pt-BR'}</script>
+
+		<script defer async src='https://duz4dqsaqembt.cloudfront.net/client/whats.js'></script>
     <div class="boxs">
         <h2>Contatos</h2>
         <ul>

@@ -8,11 +8,11 @@
     <h1>Seja bem-vindo ao site!</h1>
 </div>
 <div>
-    Espaço para vídeo
-    <video class="video-inicial" autoplay muted loop>
+    <img class="foto-inicial" src="/assets/img/doacao-doces-inicio.JPG" alt="foto">
+    {{-- <video class="video-inicial" autoplay muted loop>
         <source src="#" type="video/mp4">
 
-    </video>
+    </video> --}}
 </div>
 
 <div class="institucional-pg">

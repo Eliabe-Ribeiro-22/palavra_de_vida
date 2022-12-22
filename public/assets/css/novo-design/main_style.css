@@ -9,14 +9,16 @@
 
 main {
     background: #e2e2e2;
+    z-index: 1;
 }
 
 /* Página Inicial */
 
-.video-inicial {
+.foto-inicial {
     height: 64vh;
     width: 100%;
     position: static;
+    /* position: fixed; */
     top: 0;
     left: 0;
     object-fit: cover;
@@ -193,7 +195,8 @@ li {
 */
     margin: 5rem 0;
     width: 100vw;
-
+    height: 100px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,15 +206,20 @@ li {
 
     font-size: 1.5rem;
     text-align: center;
-    color: dd7e06;
+    color: #dd7e06;
     font-weight: bold;
     text-decoration: none;
+}
+
+.link-seja-mantenedor:hover {
+    color: #311205;
+    background: #dd7e06;
 }
 
 .bold {
     font-weight: bold;
 }
 
-.no-bold{
+.no-bold {
     font-weight: 100;
 }
