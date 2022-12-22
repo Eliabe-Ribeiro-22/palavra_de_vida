@@ -23,12 +23,12 @@ main {
 }
 
 .slogan-inicio h1 {
-    color: #e77e41;
+    color: dd7e06;
     text-align: center;
     font-size: 56px;
     padding-top: 4vh;
     padding-bottom: 4vh;
-    background: #7c411f;
+    background: #311205;
     border-bottom: 2px solid #e77e41;
     cursor: default;
 }
@@ -53,7 +53,7 @@ h3 {
 }
 
 h3 {
-    color: #e77e41;
+    color: #da7438;
 }
 
 .api-versiculo {
@@ -178,4 +178,29 @@ li {
 #imagem-logo-adad>img {
     margin-top: 1.7rem;
     max-width: 100px;
+}
+
+.img-center{
+    display: flex;
+    justify-content: center;
+}
+
+.link-seja-mantenedor{
+    margin: 0 auto;
+    margin: 5rem 25vw;
+    
+    width: 50vw;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    
+    color: dd7e06;
+/*    background: #da7438;*/
+    background: #311205;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
 }

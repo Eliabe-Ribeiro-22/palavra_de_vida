@@ -10,7 +10,7 @@ nav {
     align-items: center;
     min-height: 8vh;
     font-family: 'Poppins', sans-serif;
-    background: #e77e41;
+    background: #b29269;
 }
 
 #logo-igreja {
@@ -122,5 +122,5 @@ nav {
 .nav-links a:hover {
     font-size: 16px;
     font-weight: bolder;
-    color: #a04d0a;
+    color: white;
 }
