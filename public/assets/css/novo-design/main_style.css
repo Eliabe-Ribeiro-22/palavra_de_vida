@@ -187,20 +187,23 @@ li {
 
 .link-seja-mantenedor{
     margin: 0 auto;
-    margin: 5rem 25vw;
+/*    Old: 
+      margin: 5rem 25vw;
+      width: 50vw;
+*/
+    margin: 5rem 0;
+    width: 100vw;
     
-    width: 50vw;
     display: flex;
-    
     justify-content: center;
     align-items: center;
 
-    text-decoration: none;
     
-    color: dd7e06;
-/*    background: #da7438;*/
     background: #311205;
-    font-weight: bold;
+    
     font-size: 1.5rem;
     text-align: center;
+    color: dd7e06;
+    font-weight: bold;
+    text-decoration: none;
 }

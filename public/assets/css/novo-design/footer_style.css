@@ -2,7 +2,7 @@
 footer {
     width: 100%;
     min-height: 250px;
-    background: #e77e41;
+    background: var(--bg-nav-footer);
     display: flex;
     justify-content: center;
     border-top: 2px solid #a04d0a;

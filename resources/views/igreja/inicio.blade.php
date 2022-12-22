@@ -58,23 +58,17 @@
             </h3>
 
 
-            <h2>Meta</h2>
-            <h3>
-                Atingir o maior número de pessoas em Santa Catarina, Paraná e Rio Grande do Sul
-            </h3>
-        </div>
-        
-        <div class="projetos-igreja">     
             <h2>Valores</h2>
-            <ul class="projeto-lista"> 
-                <li>Vida</li>
-                <li>Família</li>
-                <li>Princípios Morais e éticos</li>
-                <li>Educação</li>
-                <li>Cultura</li>
-                <li>Fé</li>
-                <li>Vida, Família</li>
-
+                <ul class="projeto-lista"> 
+                    <li>Vida</li>
+                    <li>Família</li>
+                    <li>Princípios Morais e éticos</li>
+                    <li>Educação</li>
+                    <li>Cultura</li>
+                    <li>Fé</li>
+                    <li>Vida, Família</li>
+                </ul>
+            
         </div>
 
         <a href="#" class="link-seja-mantenedor">Acesse aqui para ser um sócio-mantenedor!</a>

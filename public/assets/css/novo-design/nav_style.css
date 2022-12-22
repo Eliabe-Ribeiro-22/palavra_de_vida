@@ -4,13 +4,17 @@
     box-sizing: border-box;
 }
 
+:root{
+    --bg-nav-footer: #b29269;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
     font-family: 'Poppins', sans-serif;
-    background: #b29269;
+    background: var(--bg-nav-footer);
 }
 
 #logo-igreja {
