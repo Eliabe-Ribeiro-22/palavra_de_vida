@@ -71,9 +71,13 @@ footer .boxs:nth-child(4) {
 
 #btn-whats {
     display: flex;
+/*    align-items: end;*/
 }
 
 #btn-whats>a>#img-whats {
-    justify-content: right;
+    /* position: sticky; */
+    top: 100vh;
+    left: 100vw;
+/*    width: 90px;*/
 
 }
