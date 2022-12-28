@@ -1,5 +1,5 @@
 {{-- Formulário de Contato --}}
-<form action="{{ route('form_send') }}" method="POST">
+<form action="/sendForm" method="POST">
     @csrf
     <div class="formContato-container">
         <label>Seu nome:</label>
@@ -26,5 +26,4 @@
         </button>
 
     </div>
-Ele não está funcionando!
 </form>

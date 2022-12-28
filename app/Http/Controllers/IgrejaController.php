@@ -34,6 +34,7 @@ class IgrejaController extends Controller
 
     public function sendForm(Request $request)
     {
+        echo "<script>alert('ok')</script>";
         try {
             $credentials = $request->validate([
                 'nome' => ['required'],
@@ -47,7 +48,7 @@ class IgrejaController extends Controller
 
             if ($credentials) {
                 Mail::send(
-                    'email.sendMail',
+                    'email.enviarGmail',
                     [
                         'mensagem' => $mensagem,
                         'nome' => $nome,

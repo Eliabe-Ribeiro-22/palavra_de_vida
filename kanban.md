@@ -2,11 +2,13 @@
 
 ## To do
 
-- envio de mensagem por email - não funcionando
-- trocar conteúdos de PROJETOS -> Divulgação
+- envio de mensagem por email - Colocar 2factor no site associacao palavravida
+- trocar conteúdos de PROJETOS -> Divulgação = ver com o pai
 
 ## Doing
 
-- estilizar conteúdos da página principal  - doing
+- estilizar conteúdos da página principal
+  - paraláx - doing
+   - ok
 
 # Done

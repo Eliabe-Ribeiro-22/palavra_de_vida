@@ -23,7 +23,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 // Rotas da barra de navegação
 Route::get('/institucional', [IgrejaController::class, 'institutionalPg'])->name('institutional.page');
-Route::get('/contato', [IgrejaController::class, 'form_create'])->name('contact.page');
 Route::get('/projetos', [IgrejaController::class, 'projectsPg'])->name('projects.page');
 Route::get('/reunioes', [IgrejaController::class, 'reunionsPg'])->name('reunions.page');
 

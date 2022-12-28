@@ -1,16 +1,9 @@
 <footer>
-        <script>
-        // window.rwbp={email:'pr.volni@hotmail.com',phone:'+55 49 988477611', message:"Olá, fale conosco pelo What's App para saber mais informações!",lang:'pt-BR'}</script>
-
-		<!-- <script defer async src='https://duz4dqsaqembt.cloudfront.net/client/whats.js'></script> -->
-    <div class="boxs">
+       <div class="boxs">
         <h2>Contatos</h2>
         <ul>
             <li>
                 <p>WhatsApp: (49) 9 8847-7611</p>
-            </li>
-            <li>
-                <p>Fixo: ??</p>
             </li>
             <li>
                 <p>E-mail (<a href="mailto:palavradevida.associacao@gmail.com">adcbsul@gmail.com</a>)</p>
