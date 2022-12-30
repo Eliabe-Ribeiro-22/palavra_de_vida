@@ -46,7 +46,9 @@ class IgrejaController extends Controller
             $telefone = $request->telefone;
             $mensagem = $request->mensagem;
 
+            echo "<script>alert('passou nomes')</script>";
             if ($credentials) {
+                echo "<script>alert('entrou no credentials')</script>";
                 Mail::send(
                     'email.enviarGmail',
                     [
@@ -55,11 +57,12 @@ class IgrejaController extends Controller
                         'telefone' => $telefone,
                     ],
                     function ($message) use ($request) {
-                        $message->to('adcbsul@gmail.com');
-                        $message->from('adcbsul@gmail.com', 'ADCBSUL');
-                        $message->subject('Mensagem via formulário');
+                        $message->from('palavradevida.associacao@gmail.com');
+                        $message->to('palavradevida.associacao@gmail.com');
+                        $message->subject('Alguém enviou uma mensagem para associação');
                     },
                 );
+                echo "<script>alert('enviado com sucesso')</script>";
 
                 return redirect('/')->with('msg', 'O formulário foi enviado com sucesso');
             } else {
