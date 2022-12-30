@@ -6,17 +6,19 @@
     <h1 id="formContato-title">Seja um mantenedor deste projeto:</h1>
     <x-igreja.contato.contato-form/>
     <script type="text/javascript">
-            let telefone = document.getElementsByName("tipo_contato");
+            function exibeInput(){
+            var tipo_contato = document.getElementsByName("tipo_contato")
             
-
-            let label_telefone = document.getElementById('lbl-telefone')
+                    let label_telefone = document.getElementById('lbl-telefone')
             let input_telefone = document.getElementById('formContato-container-telefone')
 
             let label_email = document.getElementById('lbl-email')
             let input_email = document.getElementById('formContato-container-email')
-            
-            console.log(telefone)
+                
 
+                console.log(telefone)
+            
+            
             //Se clicar no radio button telefone
             if (telefone.checked){
                 // Entao:
@@ -32,7 +34,7 @@
             
             }
             // Senão
-            else{
+            else if (email.checked) {}{
                 // Então:
                 //  o label email é exibido
                 //  input#email é exibido
@@ -42,8 +44,14 @@
                 
                 //  input#telefone é ocultado
                 input_telefone.style.display = "none"            
+            }        
+    
             }
-        
-        
+
+            
+            let telefone = document.getElementById('telefone')
+            let email = document.getElementById('email')
+
+     
     </script>
 @endsection

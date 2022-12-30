@@ -9,10 +9,10 @@
         Escolha se quer por telefone ou email:<br>
         <!-- <div class="formContato-container"> -->
         
-        <input type="radio" name="tipo_contato" value="email">
+        <input type="radio" id="email" name="tipo_contato" value="email" onclick="exibeInput()">
         <label>Email</label><br>
         
-        <input type="radio" name="tipo_contato" value="telefone" checked>
+        <input type="radio" id="telefone" name="tipo_contato" value="telefone" onclick="exibeInput()" checked>
         <label>Telefone</label><br>
 
          <!-- </div> -->
