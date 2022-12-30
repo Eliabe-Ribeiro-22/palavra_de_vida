@@ -34,7 +34,6 @@ class IgrejaController extends Controller
 
     public function sendForm(Request $request)
     {
-        echo "<script>alert('ok')</script>";
         try {
             $credentials = $request->validate([
                 'nome' => ['required'],
@@ -46,9 +45,7 @@ class IgrejaController extends Controller
             $telefone = $request->telefone;
             $mensagem = $request->mensagem;
 
-            echo "<script>alert('passou nomes')</script>";
             if ($credentials) {
-                echo "<script>alert('entrou no credentials')</script>";
                 Mail::send(
                     'email.enviarGmail',
                     [
@@ -62,8 +59,7 @@ class IgrejaController extends Controller
                         $message->subject('Alguém enviou uma mensagem para associação');
                     },
                 );
-                echo "<script>alert('enviado com sucesso')</script>";
-
+            
                 return redirect('/')->with('msg', 'O formulário foi enviado com sucesso');
             } else {
                 return redirect('/')->with('msg', 'Falha ao enviar o formulário. Tente mais tarde');
