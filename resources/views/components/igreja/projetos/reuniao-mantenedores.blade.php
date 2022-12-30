@@ -1,7 +1,7 @@
 <div class="projetos-igreja">
     <h3>Reunião dos sócio-mantenedores</h3>
     
-    <a href="#" id="imagem-logo-adad">
+    <a href="#" id="imagem-logo-adad" style="cursor: default;">
         <img src="https://thumbs.dreamstime.com/b/da-confer%C3%AAncia-da-reuni%C3%A3o-executivos-do-conceito-de-trabalho-da-sala-de-reuni%C3%B5es-51218570.jpg" alt="distribuição de literaturas a crianças">
     </a>
 
