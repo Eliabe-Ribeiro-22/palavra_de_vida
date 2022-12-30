@@ -24,7 +24,8 @@ label {
 
 #formContato-container-nome,
 #formContato-container-telefone,
-#formContato-container-mensagem {
+#formContato-container-mensagem,
+#formContato-container-email, {
     width: 60vw;
 }
 
@@ -56,10 +57,10 @@ label {
 }
 
 @media screen and (min-width: 640px) {
-
-    #formContato-container-nome,
-    #formContato-container-telefone,
-    #formContato-container-mensagem {
+#formContato-container-nome,
+#formContato-container-telefone,
+#formContato-container-mensagem,
+#formContato-container-email,{
         width: 50vw;
     }
 }
@@ -73,7 +74,8 @@ label {
         width: 45%;
     }
 
-    #formContato-container-telefone {
+    #formContato-container-telefone,
+    #formContato-container-email {
         width: 45%;
     }
 
@@ -108,31 +110,3 @@ label {
         margin: 0 auto;
     }
 }
-
-/*#formContato-enviar {
-        margin: 0 auto;
-
-        width: 40%;
-        height: 2rem;
-        display: flex;
-
-        background: #e6e6e6;
-        background: linear-gradient(to bottom, #e6e6e6 5%, #5e6161 100%);
-
-        border: 1px solid #566963;
-        border-radius: 5px;
-
-        font-family: Arial;
-        text-align: justify;
-        font-size: 18px;
-        color: #000000;
-        font-weight: bold;
-        text-decoration: none;
-
-        text-shadow: 0px -1px 0px #c7c7c7;
-        box-shadow: inset 0px 1px 3px 0px #f5f5f5;
-
-        cursor: pointer;
-    }
-
- */
