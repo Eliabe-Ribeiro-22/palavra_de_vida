@@ -22,10 +22,9 @@ label {
     text-align: right;
 }
 
-#formContato-container-nome,
-#formContato-container-telefone,
-#formContato-container-mensagem,
-#formContato-container-email, {
+#formContato > .formContato-container :where(input, textarea){
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
     width: 60vw;
 }
 
@@ -57,10 +56,8 @@ label {
 }
 
 @media screen and (min-width: 640px) {
-#formContato-container-nome,
-#formContato-container-telefone,
-#formContato-container-mensagem,
-#formContato-container-email,{
+
+    #formContato > .formContato-container :where(input, textarea){
         width: 50vw;
     }
 }
@@ -70,12 +67,7 @@ label {
         width: 30%;
     }
 
-    #formContato-container-nome {
-        width: 45%;
-    }
-
-    #formContato-container-telefone,
-    #formContato-container-email {
+    #formContato > .formContato-container :where(input, textarea){
         width: 45%;
     }
 

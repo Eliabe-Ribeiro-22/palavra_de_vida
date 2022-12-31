@@ -35,15 +35,23 @@ class IgrejaController extends Controller
     public function sendForm(Request $request)
     {
         try {
+            if($telefone){
+                $tipo_contato = 'telefone';
+                $campo_tipo_contato = $request->telefone;
+            }
+            else{
+                $tipo_contato = 'email';
+                $campo_tipo_contato = $request->email;
+            }
+            
             $credentials = $request->validate([
                 'nome' => ['required'],
-                'telefone' => ['required'],
+                $tipo_contato => ['required'],
                 'mensagem' => ['required'],
             ]);
-
-            $nome = $request->nome;
-            $telefone = $request->telefone;
+        
             $mensagem = $request->mensagem;
+            $nome = $request->nome;
 
             if ($credentials) {
                 Mail::send(
@@ -51,7 +59,7 @@ class IgrejaController extends Controller
                     [
                         'mensagem' => $mensagem,
                         'nome' => $nome,
-                        'telefone' => $telefone,
+                        'campo_tipo_contato' => $campo_tipo_contato,
                     ],
                     function ($message) use ($request) {
                         $message->from('palavradevida.associacao@gmail.com');

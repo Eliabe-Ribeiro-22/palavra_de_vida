@@ -1,21 +1,18 @@
 {{-- Formulário de Contato --}}
-<form action="{{ route('form_send')}}" method="POST">
+<form action="{{ route('form_send')}}" id="formContato" method="POST">
     @csrf
     <div class="formContato-container">
         <label>Seu nome:</label>
         <input type="text" name="nome" id="formContato-container-nome" placeholder="Digite seu nome" required>
     </div>
 
-        Escolha se quer por telefone ou email:<br>
-        <!-- <div class="formContato-container"> -->
+    Escolha se quer por telefone ou email:<br>
         
-        <input type="radio" id="email" name="tipo_contato" value="radio_email" onclick="ExibeFormaContato()">
-        <label>Email</label><br>
+    <input type="radio" id="email" name="tipo_contato" value="radio_email" onclick="ExibeFormaContato()">
+    <label>Email</label><br>
         
-        <input type="radio" id="telefone" name="tipo_contato" value="radio_telefone" onclick="ExibeFormaContato()" checked>
-        <label>Telefone</label><br>
-
-         <!-- </div> -->
+    <input type="radio" id="telefone" name="tipo_contato" value="radio_telefone" onclick="ExibeFormaContato()" checked>
+    <label>Telefone</label><br>
 
     <div class="formContato-container">
         <label id="lbl-telefone">Seu telefone:</label>
