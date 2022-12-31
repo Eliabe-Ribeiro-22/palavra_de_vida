@@ -22,25 +22,25 @@ footer .boxs:nth-child(4) {
     width: 400px;
 }
 
-.boxs h2 {
+.boxs > h2 {
     color: #e2e2e2;
     margin-bottom: 20px;
     text-align: center;
 
 }
 
-.boxs ul li {
+.boxs > ul > li {
     text-align: center;
     margin: 10px 0px;
     list-style: none;
 }
 
-.boxs ul li a {
+.boxs > ul > li a {
     color: #e2e2e2;
     text-decoration: none;
 }
 
-.boxs ul li a:hover {
+.boxs > ul > li a:hover {
     color: #a04d0a;
 }
 
@@ -77,7 +77,7 @@ footer .boxs:nth-child(4) {
     align-items: end;
 }
 
-#btn-whats>a>#img-whats {
+#btn-whats > a > #img-whats {
     top: 100vh;
     left: 100vw;
     width: 90px;

@@ -15,7 +15,7 @@
     </video> --}}
 </div>
 
-<div class="institucional-pg">
+<div class="projetos-igreja">
     <h2>Associação Palavra de Vida</h2>
     <h3>
         Somos uma entidade não-governamental, que busca distribuir literaturas a população, sem distinção de sexo, religião, classe social, etc.<br />
@@ -54,7 +54,7 @@
     </h4>
 </div>
 
-<div id="img-text">
+<div id="div_imgValores-text">
     <div class="projetos-igreja">
 
         <h2>Valores</h2>

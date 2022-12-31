@@ -6,10 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     {{-- CSS --}}
-    <link rel="stylesheet" href="/assets/css/novo-design/nav_style.css">
-    <link rel="stylesheet" href="/assets/css/novo-design/main_style.css">
-    <link rel="stylesheet" href="/assets/css/novo-design/footer_style.css">
-
+    <link rel="stylesheet" href="/assets/css/igreja/styles.css">
+    
     {{-- Fonts --}}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 

@@ -3,7 +3,7 @@
         <h2>Contatos</h2>
         <ul>
             <li>
-                <p>WhatsApp: <br/>(49) 9 8847-7611</p>
+                <p>WhatsApp: <br/><a style="cursor: default;">(49) 9 8847-7611</a></p>
             </li>
             <li>
                 <p>E-mail <br/>(<a href="mailto:palavradevida.associacao@gmail.com">palavradevida.associacao@gmail.com</a>)</p>
@@ -21,7 +21,7 @@
                 <p>Número: 230</p>
             </li>
             <li>
-                <p>Cidade: Campo Belo do Sul, Santa Catarina.</p>
+                <p>Campo Belo do Sul, Santa Catarina.</p>
             </li>
         </ul>
     </div>

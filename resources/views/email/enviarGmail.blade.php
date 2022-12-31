@@ -9,6 +9,6 @@
 	<h2>Email:</h2>
 @endif
 
-{{ $campo_tipo_contato }} <br>
+{{ $campo_contato }} <br>
 <h2>Mensagem:</h2>
 <p>{{ $mensagem }}</p>

@@ -26,12 +26,10 @@
 
     <div class="formContato-container">
         <label>Sua mensagem:</label>
-        <textarea id="formContato-container-mensagem" name="mensagem" rows="5" cols="33" placeholder="Quero ser mantenedor do Palavra de Vida" required></textarea>
+        <textarea id="formContato-container-mensagem" name="mensagem" rows="5" cols="33" placeholder="Mensagem" required title="mensagem para associação">Quero ser mantenedor do Palavra de Vida!</textarea>
     </div>
 
-    <div class="formContato-container" id="formContato-container-enviar">
-        <label></label>
-        
+    <div class="formContato-container" id="formContato-container-enviar">        
         <button type="submit" id="formContato-enviar">
             <p>Enviar</p>
         </button>

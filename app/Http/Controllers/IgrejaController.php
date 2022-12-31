@@ -34,15 +34,14 @@ class IgrejaController extends Controller
 
     public function sendForm(Request $request)
     {
-
         try {
             if($request->telefone != ""){
                 $tipo_contato = 'telefone';
-                $campo_tipo_contato = $request->telefone;
+                $campo_contato = $request->telefone;
             }
             else{
                 $tipo_contato = 'email';
-                $campo_tipo_contato = $request->email;
+                $campo_contato = $request->email;
             }
             
             $credentials = $request->validate([
@@ -61,7 +60,7 @@ class IgrejaController extends Controller
                         'mensagem' => $mensagem,
                         'nome' => $nome,
                         'tipo_contato' => $tipo_contato,
-                        'campo_tipo_contato' => $campo_tipo_contato,
+                        'campo_contato' => $campo_contato,
 
                     ],
                     function ($message) use ($request) {
