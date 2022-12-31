@@ -1,0 +1,41 @@
+/* Página Inicial */
+.foto-inicial {
+    height: 64vh;
+    width: 100%;
+    position: static;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.slogan-inicio h1 {
+    color: dd7e06;
+    text-align: center;
+    font-size: 56px;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    background: #311205;
+    border-bottom: 2px solid #e77e41;
+    cursor: default;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    width: 100vw;
+
+    border: 2px solid #e77e41;
+
+    margin-top: 10px;
+}
+
+h2,
+h3 {
+    padding-top: 30px;
+}
+
+h3 {
+    color: #da7438;
+}

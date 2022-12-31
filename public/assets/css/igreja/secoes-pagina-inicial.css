@@ -1,0 +1,33 @@
+.projetos-igreja {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.projetos-igreja > .projeto-lista {
+    margin: 15px 0px;
+    list-style-type: square;
+    list-style-position: inside;
+    text-align: left;
+    margin-left: 15%;
+}
+
+
+.projetos-igreja > .projeto-lista :where(p, li){
+    font-size: 18px;
+}
+
+.projetos-mais-info {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.projetos-mais-info > a {
+    color: #e77e41;
+}
+
+#imagem-valores{
+    border:4px inset #5f6632;
+
+}

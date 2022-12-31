@@ -1,5 +1,4 @@
 @extends('layouts.templateIgreja')
-
 @section('titulo', 'Início')
 
 @section('corpo')

@@ -6,13 +6,21 @@
         <input type="text" name="nome" id="formContato-container-nome" placeholder="Meu nome completo" required>
     </div>
 
-    Escolha se quer por telefone ou email:<br>
-        
-    <input type="radio" id="email" name="tipo_contato" value="radio_email" onclick="exibe_tipo_contato()">
-    <label >Email</label><br>
-        
-    <input type="radio" id="telefone" name="tipo_contato" value="radio_telefone" onclick="exibe_tipo_contato()" checked>
-    <label>Telefone</label><br>
+    <div class="formContato-container">
+        <h2 id="tipo_contato">Escolha se quer por telefone ou email:</h2>
+    </div>
+    
+    <div class="radios-tipo-contato">  
+            <div>
+                    <input type="radio" id="email" name="tipo_contato" value="radio_email" onclick="exibe_tipo_contato()">
+                    <label >Email</label>
+            </div>
+
+            <div>
+                    <input type="radio" id="telefone" name="tipo_contato" value="radio_telefone" onclick="exibe_tipo_contato()" checked>
+                    <label>Telefone</label>    
+            </div>
+    </div>
 
     <div class="formContato-container">
         <label id="lbl-telefone">Seu telefone:</label>
@@ -33,6 +41,5 @@
         <button type="submit" id="formContato-enviar">
             <p>Enviar</p>
         </button>
-
     </div>
 </form>

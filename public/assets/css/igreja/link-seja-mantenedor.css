@@ -1,0 +1,25 @@
+.link-seja-mantenedor {
+    margin: 5rem auto;
+    margin-bottom: 0.5rem;
+    
+    width: 98.5vw;
+    height: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background: #311205;
+
+    font-size: 1.5rem;
+    text-align: center;
+    color: #dd7e06;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-seja-mantenedor:hover {
+    color: #311205;
+    background: #dd7e06;
+}

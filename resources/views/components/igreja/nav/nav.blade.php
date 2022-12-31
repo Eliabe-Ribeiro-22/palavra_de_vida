@@ -1,7 +1,7 @@
 <nav>
     <div>
         <a href="{{ route('main.page') }}">
-            <img id="logo-igreja" src="#" alt="Logo do Palavra de Vida">
+            <!-- <img id="logo-igreja" src="" alt="Logo do Palavra de Vida"> -->
         </a>
     </div>
 

@@ -1,4 +1,4 @@
-form {
+#formContato {
     margin: 0 auto;
     width: 50vw;
 }
@@ -16,11 +16,33 @@ form {
     margin-bottom: 0.5rem;
 }
 
-label {
+
+#formContato label {
     display: inline-block;
 
     text-align: right;
 }
+
+#formContato > div > #tipo_contato{
+    width: 100%;
+
+    position: relative;
+    left: 20px;
+    
+    font-size: 16px;
+    text-align: center;
+    font-weight: 100;
+}
+
+#formContato > .radios-tipo-contato{
+    margin: 10px 30%;
+
+    width: 45%;
+    
+    position: relative;    
+    left: 5px;
+}
+
 
 #formContato > .formContato-container :where(input, textarea){
     font-size: 18px;
