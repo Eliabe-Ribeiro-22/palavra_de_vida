@@ -70,7 +70,6 @@ class IgrejaController extends Controller
                         $message->subject('Alguém enviou uma mensagem para associação');
                     },
                 );
-            
                 return redirect('/')->with('msg', 'O formulário foi enviado com sucesso');
             } else {
                 return redirect('/')->with('msg', 'Falha ao enviar o formulário. Tente mais tarde');

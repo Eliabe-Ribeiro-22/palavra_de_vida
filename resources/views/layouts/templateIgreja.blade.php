@@ -4,8 +4,11 @@
 <x-igreja.nav.nav />
 
 <main>
-    @yield('corpo')
+    @if(session('msg'))
+        <p class="mensagem">{{ session('msg') }}</p>
+    @endif
     
+    @yield('corpo')
 </main>
 
 <x-igreja.footer.footer />
