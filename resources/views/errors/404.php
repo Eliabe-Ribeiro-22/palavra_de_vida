@@ -14,11 +14,13 @@
 
 <body>
     <div class="full-size-pg">
+    <!-- 
         <div class="church-logo">
             <a href="{{ route('index.page') }}">
-                <img id="img-logo-chur" src="/assets/img/igreja/logoIgreja.png" alt="Logo da Igreja">
+                <img id="img-logo-chur" src="" alt="Logo do Palavra de Vida">
             </a>
         </div>
+    -->
         <div class="main-box">
             <h2>404 - Página não encontrada!</h2>
             <div class="message-box">

@@ -9,10 +9,11 @@
 </div>
 <div>
     <img class="foto-inicial" src="/assets/img/doacao-doces-inicio.JPG" alt="foto">
-    {{-- <video class="video-inicial" autoplay muted loop>
+{{-- 
+    <video class="video-inicial" autoplay muted loop>
         <source src="#" type="video/mp4">
-
-    </video> --}}
+    </video> 
+--}}
 </div>
 
 <div class="projetos-igreja">
