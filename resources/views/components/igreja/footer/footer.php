@@ -3,10 +3,10 @@
         <h2>Contatos</h2>
         <ul>
             <li>
-                <p>WhatsApp: (49) 9 8847-7611</p>
+                <p>WhatsApp: <br/>(49) 9 8847-7611</p>
             </li>
             <li>
-                <p>E-mail (<a href="mailto:palavradevida.associacao@gmail.com">adcbsul@gmail.com</a>)</p>
+                <p>E-mail <br/>(<a href="mailto:palavradevida.associacao@gmail.com">palavradevida.associacao@gmail.com</a>)</p>
             </li>
         </ul>
     </div>

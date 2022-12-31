@@ -9,22 +9,22 @@
         Escolha se quer por telefone ou email:<br>
         <!-- <div class="formContato-container"> -->
         
-        <input type="radio" id="email" name="tipo_contato" value="email" onclick="exibeInput()">
+        <input type="radio" id="email" name="tipo_contato" value="radio_email" onclick="ExibeFormaContato()">
         <label>Email</label><br>
         
-        <input type="radio" id="telefone" name="tipo_contato" value="telefone" onclick="exibeInput()" checked>
+        <input type="radio" id="telefone" name="tipo_contato" value="radio_telefone" onclick="ExibeFormaContato()" checked>
         <label>Telefone</label><br>
 
          <!-- </div> -->
 
     <div class="formContato-container">
         <label id="lbl-telefone">Seu telefone:</label>
-        <input type="text" id="formContato-container-telefone" name="telefone" placeholder="Digite seu telefone" required>
+        <input type="text" id="formContato-container-telefone" name="telefone" placeholder="Digite seu telefone">
     </div>
 
     <div class="formContato-container">
         <label id="lbl-email">Seu email:</label>
-        <input type="email" id="formContato-container-email" name="email" placeholder="Digite seu email" required>
+        <input type="email" id="formContato-container-email" name="email" placeholder="Digite seu email">
     </div>
 
     <div class="formContato-container">
