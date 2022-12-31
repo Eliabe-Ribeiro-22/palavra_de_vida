@@ -34,8 +34,14 @@ class IgrejaController extends Controller
 
     public function sendForm(Request $request)
     {
+
+        echo "Telefone:" . $request->telefone . "k<br>";
+        echo $request->nome . "<br>";
+        echo "Email:" . $request->email . "<br>";
+        echo $request->mensagem . "<br>";
+        
         try {
-            if($telefone){
+            if($request->telefone != ""){
                 $tipo_contato = 'telefone';
                 $campo_tipo_contato = $request->telefone;
             }
@@ -59,7 +65,9 @@ class IgrejaController extends Controller
                     [
                         'mensagem' => $mensagem,
                         'nome' => $nome,
+                        'tipo_contato' = $tipo_contato,
                         'campo_tipo_contato' => $campo_tipo_contato,
+
                     ],
                     function ($message) use ($request) {
                         $message->from('palavradevida.associacao@gmail.com');

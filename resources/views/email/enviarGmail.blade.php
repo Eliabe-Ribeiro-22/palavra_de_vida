@@ -2,11 +2,8 @@
 <h2>Nome:</h2>
 {{ $nome }} <br>
 
-@php
-$telefone = true
-@endphp
 
-@if($telefone)
+@if($tipo_contato == "telefone")
 	<h2>Telefone:</h2>
 @else
 	<h2>Email:</h2>
