@@ -14,5 +14,5 @@
     <title>Palavra de Vida</title>
 
     {{-- Icon --}}
-    <link rel="icon" type="image/x-icon" href="/igreja.ico">
+    <link rel="icon" type="image/x-icon" href="/ap-vida.ico">
 </head>

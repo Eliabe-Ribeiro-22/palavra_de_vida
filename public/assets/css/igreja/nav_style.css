@@ -5,11 +5,7 @@ nav {
     min-height: 8vh;
     font-family: 'Poppins', sans-serif;
     background: var(--bg-nav-footer);
-}
 
-#logo-igreja {
-    height: 100px;
-    width: 100px;
 }
 
 .nav-logo {
