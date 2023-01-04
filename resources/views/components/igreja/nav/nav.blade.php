@@ -1,15 +1,9 @@
 <nav>
-    <div id="testando">
-        <a href="{{ route('main.page') }}" id="testando-a">
-            <!-- <img id="logo-igreja" src="/assets/img/logo-ap-vida.png" alt="Logo do Palavra de Vida"> -->
-        </a>
-    </div>
-
-    <div class="nav-logo">
+    <div class="logo">
         <h4>Palavra de Vida</h4>
     </div>
     
-    <ul class="nav-links">
+    <ul class="links">
         <li class="nav-btn"><a href="{{ route('main.page') }}">Início</a></li>
         <li class="nav-btn"><a href="{{ route('contact.page') }}">Seja mantenedor</a></li>
         <li class="nav-btn"><a href="{{ route('projects.page') }}">Divulgação</a></li>

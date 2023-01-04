@@ -6,7 +6,7 @@
                 <p>WhatsApp: <br/><a style="cursor: default;">(49) 9 8847-7611</a></p>
             </li>
             <li>
-                <p>E-mail <br/>(<a href="mailto:palavradevida.associacao@gmail.com">palavradevida.associacao@gmail.com</a>)</p>
+                <p>E-mail <br/><a href="mailto:palavradevida.associacao@gmail.com">palavradevida.associacao@gmail.com</a></p>
             </li>
         </ul>
     </div>
@@ -15,13 +15,16 @@
         <h2>Endereço</h2>
         <ul>
             <li>
-                <p>Rua: Gerônimo Xavier de Oliveira.</p>
+                <p>Rua: Ouro Preto, nº 608</p>
             </li>
             <li>
-                <p>Número: 230</p>
+                <p>Bairro São Sebastião</p>
             </li>
             <li>
-                <p>Campo Belo do Sul, Santa Catarina.</p>
+                <p>CEP 88.520-320</p>
+            </li>
+            <li>
+                <p>Lages, Santa Catarina.</p>
             </li>
         </ul>
     </div>

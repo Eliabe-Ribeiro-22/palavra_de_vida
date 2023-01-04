@@ -7,13 +7,13 @@
     </div>
 
     <div class="formContato-container">
-        <h2 id="tipo_contato">Escolha se quer por telefone ou email:</h2>
+        <h2 id="tipo_contato">Escolha se quer que entremos em contato por telefone ou e-mail:</h2>
     </div>
     
     <div class="radios-tipo-contato">  
             <div>
                     <input type="radio" id="email" name="tipo_contato" value="radio_email" onclick="exibe_tipo_contato()">
-                    <label >Email</label>
+                    <label >E-mail</label>
             </div>
 
             <div>
@@ -34,7 +34,7 @@
 
     <div class="formContato-container">
         <label>Sua mensagem:</label>
-        <textarea id="formContato-container-mensagem" name="mensagem" rows="5" cols="33" placeholder="Mensagem" required title="mensagem para associação">Quero ser mantenedor do Palavra de Vida!</textarea>
+        <textarea id="formContato-container-mensagem" name="mensagem" rows="5" cols="33" placeholder="Mensagem" required title="mensagem para associação">Quero ser sócio-contribuinte da Associação Palavra de Vida!</textarea>
     </div>
 
     <div class="formContato-container" id="formContato-container-enviar">        

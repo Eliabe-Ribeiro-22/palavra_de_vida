@@ -1,16 +1,22 @@
 # Kanban Eliabe
 
 ## To do
+- responsividade: 
+main, footer = ok
+header = com problema
 
-- envio de mensagem por email - Colocar 2factor no site associacao palavravida
-- trocar conteúdos de PROJETOS -> Divulgação = ver com o pai
+
 - refatoração:
   - nomes de componentes, rotas, controllers, variaveis, view
   
 ## Doing
+- seja-mantenedor = problema de ui no 1024px
 
-- estilizar conteúdos da página principal
-  - paraláx - doing
-   - ok
+- incluir .ico para site
 
 # Done
+- distancia de imagens e borda (tirar borda)
+- envio de mensagem por email - Colocar 2factor no site associacao palavravida
+- trocar conteúdos de PROJETOS -> Divulgação = ver com o pai
+- estilizar conteúdos da página principal
+
