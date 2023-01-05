@@ -21,7 +21,7 @@
                 <p>Bairro São Sebastião</p>
             </li>
             <li>
-                <p>CEP 88.520-320</p>
+                <p>CEP 88520-320</p>
             </li>
             <li>
                 <p>Lages, Santa Catarina.</p>
