@@ -2,16 +2,12 @@
 
 ## To do
 
-- refatoração:
-  - nomes de componentes, rotas, controllers, variaveis, view
-  
 ## Doing
 - responsividade: 
-main, footer = ok
-header = com problema
+header = com problema ao exibir do menu 
 
 
-# Done
+## Done
 - incluir .ico para site
 - distancia de imagens e borda (tirar borda)
 - envio de mensagem por email - Colocar 2factor no site associacao palavravida

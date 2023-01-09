@@ -28,7 +28,7 @@
         transition: transform 0.5s ease-in;
     }
 
-    nav .links > li {
+    nav .links li {
         opacity: 1;
     }
 
@@ -38,15 +38,15 @@
     }
     
     .burger > div{
-    background: #e2e2e2;    
+        background: #e2e2e2;    
+    }
+
+    .nav-active {
+        transform: translateX(0%);
     }
 }
 
-.nav-active {
-    transform: translateX(0%);
-}
-
-@keyframes navLinkFade {
+@keyframes nav_links {
     from {
         opacity: 0;
         transform: translateX(50px);
@@ -58,19 +58,19 @@
     }
 }
 
-.toggle > .line1 {
+.toggle .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
 }
 
-.toggle > .line2 {
+.toggle .line2 {
     opacity: 0;
 }
 
-.toggle > .line3 {
+.toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
 
-nav .links > a:hover {
+nav .links a:hover {
     font-weight: bolder;
     color: white;
 }

@@ -1,5 +1,6 @@
 /* Ocultar botões de menu da Nav */
 const abre_menu = () => {
+    alert("entrou no abrir")
     let menu_button = document.getElementById("menu_button");
     menu_button.className = "menu-button-open";
 
@@ -12,6 +13,7 @@ const abre_menu = () => {
 
 /* Ocultar botões de menu da Nav */
 const fecha_menu = () => {
+    alert("entrou no fechar")
     let menu_button = document.getElementById("menu_button");
     menu_button.className = "";
 
