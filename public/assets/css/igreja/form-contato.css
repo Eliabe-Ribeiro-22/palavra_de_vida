@@ -24,27 +24,27 @@
 }
 
 #formContato > div > #tipo_contato{
-    width: 100%;
-
     position: relative;
-    left: 20px;
-    
+    bottom: 10px;
+
+    width: 100%;
     font-size: 16px;
     text-align: center;
     font-weight: 100;
 }
 
 #formContato > .radios-tipo-contato{
-    margin: 10px 30%;
+    position: relative;    
+    left: 5px;
+    
 
     width: 45%;
     
-    position: relative;    
-    left: 5px;
+   margin: 10px 30%;    
 }
 
-
 #formContato > .formContato-container :where(input, textarea){
+    padding: 5px;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     width: 60vw;
@@ -78,37 +78,38 @@
 }
 
 @media screen and (min-width: 640px) {
-
     #formContato > .formContato-container :where(input, textarea){
         width: 50vw;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    label {
-        width: 30%;
-    }
+   #formContato{
+    width: 30vw;
+   }
 
-    #formContato > .formContato-container :where(input, textarea){
-        width: 45%;
+    #formContato > .formContato-container :where(input, textarea){ 
+        width: 100%; 
     }
-
+    
     #formContato-container-mensagem {
         resize: vertical;
         width: 45%;
     }
-
+    
     #formContato-container-enviar {
         margin: 0;
     }
-
+    
     #formContato-enviar {
-        width: 40%;
-        height: 2rem;
-        
         padding: 0;
-    }
 
+        width: 100%;
+        height: 3rem;        
+
+        align-items: center;
+    }
+    
     #formContato-enviar:hover {
         background: #5e6161;
         background: linear-gradient(to bottom, #5e6161 5%, #e6e6e6 100%);
@@ -119,8 +120,8 @@
 
         position: relative;
     }
-
-    #formContato-enviar>p {
+    
+    #formContato-enviar > p {
         margin: 0 auto;
     }
 }

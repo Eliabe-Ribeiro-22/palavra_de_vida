@@ -2,7 +2,7 @@
     <h3>Entrega de literaturas a crianças</h3>
 
     <a href="#" id="imagem-logo-adad" style="cursor: default;">
-        <img src="https://www.alianscesonae.com.br/stoomsuz/2022/06/Capa-News_Suvaco_.jpg" alt="distribuição de literaturas a crianças">
+        <img src="/assets/img/entrega-literaturas-criancas.jpg" alt="distribuição de literaturas a crianças">
     </a>
 
     <ul class="projeto-lista">

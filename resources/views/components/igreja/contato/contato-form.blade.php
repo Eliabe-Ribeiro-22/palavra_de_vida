@@ -6,7 +6,7 @@
         <input type="text" name="nome" id="formContato-container-nome" placeholder="Meu nome completo" required>
     </div>
 
-    <div class="formContato-container">
+    <div>
         <h2 id="tipo_contato">Escolha se quer que entremos em contato por telefone ou e-mail:</h2>
     </div>
     
