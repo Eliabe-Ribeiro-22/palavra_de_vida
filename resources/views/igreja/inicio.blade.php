@@ -77,8 +77,8 @@
 
 <a href="{{ route('contact.page') }}" class="link-seja-mantenedor">Acesse aqui para ser um sócio-contribuinte!</a>
 
-<div class="img-center">
-    <img src="https://www.infoescola.com/wp-content/uploads/2009/12/bandeira-de-santa-catarina.jpg" width="30%;" alt="Foto da Bandeira do Estado de Santa Catarina">
-    <img src="https://diocesedesaojoaodelrei.com.br/wp-content/uploads/2017/08/familia-696x362.jpg">
+<div class="bandeira-familia">
+    <img src="https://www.infoescola.com/wp-content/uploads/2009/12/bandeira-de-santa-catarina.jpg" alt="Foto da Bandeira do Estado de Santa Catarina" id="bandeira-sc">
+    <img src="https://diocesedesaojoaodelrei.com.br/wp-content/uploads/2017/08/familia-696x362.jpg" id="familia">
 </div>
 @endsection

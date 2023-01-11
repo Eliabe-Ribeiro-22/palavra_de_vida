@@ -8,14 +8,6 @@
     --bg-nav-footer: #b29269;
 }
 
-.img-center {
-    margin: 2rem 0;
-    margin-right: 1rem;
-    
-    display: flex;
-    justify-content: center;
-}
-
 .bold {
     font-weight: bold;
 }

@@ -1,0 +1,14 @@
+.bandeira-familia {
+    margin: 2rem 15vw;
+    
+    width: 70vw;
+    display: flex;
+}
+
+.bandeira-familia > #bandeira-sc{
+    width: 30%;
+}
+
+.bandeira-familia > #familia{
+    width: 70%;
+}
