@@ -6,7 +6,6 @@
 - responsividade: 
 header = com problema ao exibir do menu 
 
-
 ## Done
 - incluir .ico para site
 - distancia de imagens e borda (tirar borda)

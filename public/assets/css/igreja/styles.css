@@ -1,3 +1,6 @@
+/* Globais */
+@import 'globais.css';
+
 /* nav & footer */
 @import 'nav_style.css';
 @import 'footer_style.css';
@@ -22,9 +25,6 @@
 
 /* mensgagem após envio de email */
 @import 'message-after-email.css';
-
-/* Globais */
-@import 'globais.css';
 
 #div_imgValores-text{
     display: flex;
