@@ -8,7 +8,6 @@ nav {
     min-height: 8vh;
     font-family: 'Poppins', sans-serif;
     background: var(--bg-nav-footer);
-
 }
 
 nav > .logo {
@@ -20,20 +19,20 @@ nav > .logo {
     letter-spacing: 3px;
     color: #e2e2e2;
     
-    cursor: default;    
+    cursor: default;  
 }
 
-nav > .links {
+nav .links {
     display: flex;
     justify-content: space-around;
     width: 40%;
 }
 
-nav > .links li {
+nav .links li {
     list-style: none;
 }
 
-nav > .links a {
+nav .links a {
     text-decoration: none;
     
     font-size: 21px;
@@ -42,18 +41,11 @@ nav > .links a {
     font-weight: bold;
 }
 
-.burger {
-    display: none;
-    cursor: pointer;
-}
-
-.burger div {
+.burger > div {
     margin: 5px;
 
     width: 25px;
     height: 3px;
 
-    background: #e2e2e2;
-    
     transition: all 0.3s ease;
 }
