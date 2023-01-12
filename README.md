@@ -1,6 +1,7 @@
 # Site Palavra de Vida
 
-![Logo da associação Palavra de Vida](public/assets/img/logo-ap-vida.png){=10x10}
+
+<img src="public/assets/img/logo-ap-vida.png" alt="Logo da associação Palavra de Vida" style="width:24rem;" />
 
 ## O que é?
 
