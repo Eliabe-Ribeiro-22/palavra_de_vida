@@ -1,6 +1,7 @@
 # Kanban Eliabe
 
 ## To do
+- Adicionar as contas bancárias da instituição, bem como a chave PIX:
 
 ## Doing
 - responsividade: 
