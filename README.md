@@ -1,6 +1,6 @@
 # Site Palavra de Vida
 
-![Logo da associação Palavra de Vida](public/assets/img/logo-ap-vida.png)
+![Logo da associação Palavra de Vida](public/assets/img/logo-ap-vida.png){=10x10}
 
 ## O que é?
 
@@ -21,6 +21,6 @@ Laravel, Arquitetura REST, Envio de email: nome, mensagem, telefone OU email, CS
 
 ## Projeto no ar
 
-Ele ainda não foi publicado o site, para que seja o projeto seja completamente finalizado. O delpoy será realizado no próximo mês, no serviço de hospedagem da Hostinger.
+Ele ainda não foi publicado o site, para que seja o projeto seja completamente finalizado. O deploy será realizado no próximo mês, no serviço de hospedagem da Hostinger.
 
 <link do site>
