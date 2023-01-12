@@ -16,9 +16,9 @@
 
 <h2 name="projeto"> Sobre o projeto </h2>
 
-Este projeto será realizado pelo desenvolvedor <a href="https://github.com/Eliabe-Ribeiro-22">Eliabe Mota</a> com o objetivo ajudar uma **associação** civil de direito privado, de caráter beneficente, localizada na cidade de Lages, chamada Palavra de Vida. Ela tem a meta de arrecadar fundos para adquirir literaturas a serem distribuídas gratuitamente e realizar atividades sociais a pessoas carentes. Por isso, ela é destinada a atender pessoas de todas as idades com literaturas educativas e promover o bem-estar social a todos.
+Este projeto será realizado pelo desenvolvedor <a href="https://github.com/Eliabe-Ribeiro-22">Eliabe Mota</a> com objetivo de ajudar uma **associação** civil de direito privado, de caráter beneficente, localizada na cidade de Lages, chamada Palavra de Vida. Ela tem a meta de arrecadar fundos para adquirir literaturas a serem distribuídas gratuitamente e realizar atividades sociais a pessoas carentes. Por isso, ela é destinada a atender pessoas de todas as idades com literaturas educativas e promover o bem-estar social a todos.
 
-Neste site, o visitante conseguirá visualizar as ações desenvolvidas pela entidade, bem como a sua visão, missão, seu objetivo, seus valores e sua meta.
+Nele o visitante conseguirá visualizar as ações desenvolvidas pela entidade, bem como a sua visão, missão, seu objetivo, seus valores e sua meta.
 Além disso, ele poderá entrar em contato com a instituição através de um formulário apropriado, caso queira ser um sócio-contribuinte.
 
 <h2 name="estrutura"> Estrutura do projeto  </h2>
