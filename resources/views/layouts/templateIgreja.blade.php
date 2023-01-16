@@ -11,10 +11,11 @@
     @yield('corpo')
 </main>
 <script type="text/javascript">
-function clickMenu() {
-    const links = document.querySelector("#links")
-    const burger = document.querySelector("#burger")
+const links = document.querySelector("#links")
+const burger = document.querySelector("#burger")
 
+function clickMenu() {
+    
     if (links.style.display == 'block') {
         links.style.display = 'none';
         burger.style.textAlign = "left"

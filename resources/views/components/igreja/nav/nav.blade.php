@@ -7,12 +7,12 @@
     </div>
 
     <i class="material-icons" id="burger" onclick="clickMenu()">menu</i>
-    <!-- <ul class="links" id="links">
+    <ul class="links" id="links">
         <li class="nav-btn"><a href="#">Início</a></li>
         <li class="nav-btn"><a href="#">Mantenedor</a></li>
         <li class="nav-btn"><a href="#">Divulgação</a></li>
     </ul>
 
     {{-- Navbar script --}}
-    <script type="text/javascript" src="/assets/js/novo-design/navbar.js"></script> -->
+    <script type="text/javascript" src="/assets/js/novo-design/navbar.js"></script> 
 </header>
