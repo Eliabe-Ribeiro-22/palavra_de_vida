@@ -40,7 +40,10 @@ header{
 }
 
 #burger{
+    padding: 10px;
     display: none;
+    color: white;
+    cursor: pointer;
 }    
 
 /* Responsividade */
@@ -59,10 +62,7 @@ header{
 
     #burger{
         width: 40%;
-        color: white;
         display: block;
         text-align: left;
-        padding: 10px;
-        cursor: pointer;
     }
 }
