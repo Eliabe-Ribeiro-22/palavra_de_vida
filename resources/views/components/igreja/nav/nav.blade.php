@@ -1,21 +1,18 @@
-<nav>
+<header>
+    {{-- Menu Icon --}}     
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <div class="logo">
         <h4>Palavra de Vida</h4>
     </div>
-    
-    <ul class="links">
-        <li class="nav-btn"><a href="{{ route('main.page') }}">Início</a></li>
-        <li class="nav-btn"><a href="{{ route('contact.page') }}">Mantenedor</a></li>
-        <li class="nav-btn"><a href="{{ route('projects.page') }}">Divulgação</a></li>
-    
+
+    <i class="material-icons" id="burger" onclick="clickMenu()">menu</i>
+    <!-- <ul class="links" id="links">
+        <li class="nav-btn"><a href="#">Início</a></li>
+        <li class="nav-btn"><a href="#">Mantenedor</a></li>
+        <li class="nav-btn"><a href="#">Divulgação</a></li>
     </ul>
 
-    <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-    </div>
-
     {{-- Navbar script --}}
-    <script src="/assets/js/novo-design/navbar.js"></script>
-</nav>
+    <script type="text/javascript" src="/assets/js/novo-design/navbar.js"></script> -->
+</header>

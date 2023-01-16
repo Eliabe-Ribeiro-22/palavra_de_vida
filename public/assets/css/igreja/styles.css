@@ -1,8 +1,8 @@
 /* Globais */
 @import 'globais.css';
 
-/* nav & footer */
-@import 'nav_style.css';
+/* header & footer */
+@import 'header_style.css';
 @import 'footer_style.css';
 
 /* main das páginas do site*/

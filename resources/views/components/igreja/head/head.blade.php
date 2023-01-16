@@ -10,7 +10,7 @@
     
     {{-- Fonts --}}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-
+    
     <title>Palavra de Vida</title>
 
     {{-- Icon --}}
