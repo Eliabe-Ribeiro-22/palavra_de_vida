@@ -1,1 +1,0 @@
-mysql -hcontainers-us-west-159.railway.app -uroot -p9PaHz4KGQJebhUs6e6DN --port 7307 --protocol=TCP railway

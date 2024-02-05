@@ -52,11 +52,14 @@
 
 #formContato-enviar {
     margin: 0 auto;
-    padding: 3vw 15vw;
+   
     width: 60vw;
     height: 3rem;
 
     display: flex;
+
+    align-items: center;
+    justify-content: center;
 
     background: #e6e6e6;
     background: linear-gradient(to bottom, #e6e6e6 5%, #5e6161 100%);
@@ -79,6 +82,9 @@
 
 @media screen and (min-width: 640px) {
     #formContato > .formContato-container :where(input, textarea){
+        width: 50vw;
+    }
+    #formContato-enviar{
         width: 50vw;
     }
 }

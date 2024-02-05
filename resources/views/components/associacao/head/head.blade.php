@@ -1,4 +1,4 @@
-{{-- head do template-igreja --}}
+{{-- head do template-associacao --}}
 
 <head>
     <meta charset="UTF-8">
@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     {{-- CSS --}}
-    <link rel="stylesheet" href="/assets/css/igreja/styles.css">
+    <link rel="stylesheet" href="/assets/css/associacao/styles.css">
     
     {{-- Fonts --}}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
