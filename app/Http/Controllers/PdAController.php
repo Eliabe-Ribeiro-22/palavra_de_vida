@@ -9,15 +9,15 @@ class PdAController extends Controller
 {
     //PdA = Palavra de Vida Controller
      public function mainPg() {
-        return view('igreja.inicio');
+        return view('associacao.inicio');
     }
 
     public function divulgationPg () {
-        return view('igreja.divulgation');
+        return view('associacao.divulgation');
     }
     
     public function maintainer(){
-            return view('igreja.maintainer');
+            return view('associacao.maintainer');
     }
 
     public function sendForm(Request $request)

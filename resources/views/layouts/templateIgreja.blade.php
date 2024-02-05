@@ -1,7 +1,7 @@
 {{-- Template Igreja --}}
-<x-igreja.head.head />
+<x-associacao.head.head />
 
-<x-igreja.nav.nav />
+<x-associacao.nav.nav />
 
 <main>
     @if(session('msg'))
@@ -11,4 +11,4 @@
     @yield('corpo')
 </main>
 
-<x-igreja.footer.footer />
+<x-associacao.footer.footer />
