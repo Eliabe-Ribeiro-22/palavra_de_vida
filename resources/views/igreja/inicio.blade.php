@@ -75,7 +75,7 @@
     
 </div>
 
-<a href="{{ route('contact.page') }}" class="link-seja-mantenedor">Acesse aqui para ser um sócio-contribuinte!</a>
+<a href="{{ route('maintainer.page') }}" class="link-seja-mantenedor">Acesse aqui para ser um sócio-contribuinte!</a>
 
 <div class="bandeira-familia">
     <img src="https://www.infoescola.com/wp-content/uploads/2009/12/bandeira-de-santa-catarina.jpg" alt="Foto da Bandeira do Estado de Santa Catarina" id="bandeira-sc">
