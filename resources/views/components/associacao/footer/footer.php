@@ -2,7 +2,7 @@
        <div class="boxs">
         <h2>Contatos</h2>
         <ul>
-            <li><a href="https://web.whatsapp.com/send/?phone=5549988477611&text=Tenho+interesse+em+ser+sócio-mantenedor+deste+projeto&type=phone_number&app_absent=0" target="_blank">WhatsApp <br/> (49) 9 8847-7611</a></li>
+            <li><a href="https://web.whatsapp.com/send/?phone=5549988477611&text=Tenho+interesse+em+ser+sócio-contribuinte+deste+projeto&type=phone_number&app_absent=0" target="_blank">WhatsApp <br/> (49) 9 8847-7611</a></li>
             <li><a href="#">Instagram</a></li>
             <li>
                 <a href="mailto:palavradevida.associacao@gmail.com">E-mail: palavradevida.associacao@gmail.com</a></p>
@@ -52,7 +52,7 @@
     </div>
 
     <div id="btn-whats">
-        <a href="https://web.whatsapp.com/send/?phone=5549988477611&text=Tenho+interesse+em+ser+sócio-mantenedor+deste+projeto&type=phone_number&app_absent=0" target="_blank">
+        <a href="https://web.whatsapp.com/send/?phone=5549988477611&text=Tenho+interesse+em+ser+sócio-contribuinte+deste+projeto&type=phone_number&app_absent=0" target="_blank">
             <img id="img-whats" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png" alt="Logo Whats" target="_blank">
         </a>
     </div>

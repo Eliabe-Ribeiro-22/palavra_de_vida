@@ -1,5 +1,6 @@
 .bandeira-familia {
-    margin: 2rem 15vw;
+    margin: 2rem 15vw 0;
+    padding-bottom: 2rem;
     
     width: 70vw;
     display: flex;
