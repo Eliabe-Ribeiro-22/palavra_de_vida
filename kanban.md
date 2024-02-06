@@ -1,13 +1,13 @@
 # Kanban Eliabe
 
 ## To do
-- Adicionar as contas bancárias da instituição, bem como a chave PIX:
 
 ## Doing
-- responsividade: 
-header = com problema ao exibir do menu 
 
 ## Done
+- Adicionar as contas bancárias da instituição, bem como a chave PIX:
+- responsividade: 
+  - header = com problema ao exibir do menu 
 - incluir .ico para site
 - distancia de imagens e borda (tirar borda)
 - envio de mensagem por email - Colocar 2factor no site associacao palavravida

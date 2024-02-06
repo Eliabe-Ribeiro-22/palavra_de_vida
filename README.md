@@ -42,8 +42,6 @@ Será adicionado sistema de mensageria, dando assim a funcionalidade para o form
 
 ## Projeto no ar
 
-Ele ainda não foi publicado, pois iremos o fazer assim que o projeto seja completamente finalizado. O deploy será realizado no próximo mês, no serviço de hospedagem da Hostinger.
-
-<link do site>
+Site online: <https://ap-vida.com>
 
 <p align="right">(<a href="#indice">voltar ao indice</a>)</p>
