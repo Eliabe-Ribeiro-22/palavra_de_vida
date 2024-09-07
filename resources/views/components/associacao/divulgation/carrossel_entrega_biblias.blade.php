@@ -1,5 +1,5 @@
 <div>
-    <h2 id="divulgacao-title">Entregas de Bíblias a pessoas</h2>
+    <h2 id="divulgacao-title">Entregas de Bíblias a pessoas por Pastor Volni</h2>
 {{-- 
     + ---------------------------------- +
     | Componente do carrossel de imagens |
@@ -40,11 +40,12 @@
 </script>
 
     <p class="p-divulgacao">
-    Entrega de Bíblias pelo Pastor Volni a pessoas que não tinham Bíblia.
+    Entrega de Bíblias pelo Pastor Volni a pessoas que não tinham Bíblia. <br>
     Pastor Volni é o tesoureiro da Asssociação Palavra de Vida
     </p>
 
-
+<h2 id="divulgacao-title">Entregas de Bíblias a pessoas por associados</h2>
+{{-- 
 {{-- Carrosel com imagens de entrega de bíblias 2 --}}
     <script type="text/javascript" src="/assets/js/carrossel.js"></script>
     <div class="container">
@@ -80,6 +81,9 @@
         Entrega de Bíblias por associados a pessoas que não tinham Bíblia
     </p>
 
+
+    <h2 id="divulgacao-title">Entregas de Bíblias a pessoas por associados</h2>
+    
     {{-- Carrosel com imagens de entrega de bíblias  3 --}}
     <script type="text/javascript" src="/assets/js/carrossel.js"></script>
     <div class="container">
@@ -110,6 +114,7 @@
 </script>
 
 
+    <h2 id="divulgacao-title">Entregas de Bíblias a pessoas por associados</h2>
     {{-- Carrosel com imagens de entrega de bíblias  4 --}}
     <script type="text/javascript" src="/assets/js/carrossel.js"></script>
     <div class="container">
@@ -134,6 +139,8 @@
         </div>
     </div>
 
+
+    <h2 id="divulgacao-title">Entregas de Bíblias a pessoas por associados</h2>
     {{-- Carrosel com imagens de entrega de bíblias  5 --}}
     <script type="text/javascript" src="/assets/js/carrossel.js"></script>
     <div class="container">
