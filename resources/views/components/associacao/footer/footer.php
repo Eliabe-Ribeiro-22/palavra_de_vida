@@ -34,10 +34,14 @@
             Chave Pix - CNPJ <br/>48.238.630/0001-25
             <br/>
             <br/>
-            Caixa - Ag: 3875 <br/>
+            
+            Caixa Econômica Federal <br> 
+            Ag: 3875 
+            <br/>
             Op: 003 C/C: 844-4
             <br/>
             <br/>
+            
             Banco do Brasil - Ag: 3078 <br/> Op: 003 C/C: 35754-5
             <br/>
             <br/>
@@ -52,9 +56,17 @@
     </div>
 
     <div id="btn-whats">
-        <a href="https://web.whatsapp.com/send/?phone=5549988477611&text=Tenho+interesse+em+ser+sócio-contribuinte+deste+projeto&type=phone_number&app_absent=0" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=5549988477611&text=Tenho+interesse+em+ser+sócio-contribuinte+deste+projeto&type=phone_number&app_absent=0" target="_blank">
             <img id="img-whats" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png" alt="Logo Whats" target="_blank">
         </a>
+
+
+        <!-- link com imagem Whats app - Desativado
+
+        <a href="https://web.whatsapp.com/send/?phone=5549988477611&text=Tenho+interesse+em+ser+sócio-contribuinte+deste+projeto&type=phone_number&app_absent=0" target="_blank">
+            
+            <img id="img-whats" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png" alt="Logo Whats" target="_blank">
+        </a> -->
     </div>
  
 </footer>

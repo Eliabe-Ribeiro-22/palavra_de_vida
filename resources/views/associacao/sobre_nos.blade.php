@@ -25,6 +25,7 @@
 
 <video controls loop class="video_page_sobre">
 	<source src="/assets/video/video-site.palavra-de-vida.mp4" type="video/mp4">
+		Seu navegador não suporta esse vídeo
 </video>
 <p class="text_center" id="text_page_sobre">Explicação da associação pelo tesoureiro Pastor Volni</p>
 
@@ -32,6 +33,7 @@
 
 <video controls loop class="video_page_sobre"> 
 	<source src="/assets/video/video-recebedor-biblia.mp4" type="video/mp4">
+		Seu navegador não suporta esse vídeo
 </video>
 <p class="text_center" id="text_page_sobre">
 	Palavra de um recebedor que teve sua vida transformada pela Bíblia recebida 

@@ -16,21 +16,26 @@
 
 <h2 name="projeto"> Sobre o projeto </h2>
 
-Este projeto será realizado pelo desenvolvedor <a href="https://github.com/Eliabe-Ribeiro-22">Eliabe Mota</a> com objetivo de ajudar uma **associação** civil de direito privado, de caráter beneficente, localizada na cidade de Lages, chamada Palavra de Vida. Ela tem a meta de arrecadar fundos para adquirir literaturas a serem distribuídas gratuitamente e realizar atividades sociais a pessoas carentes. Por isso, ela é destinada a atender pessoas de todas as idades com literaturas educativas e promover o bem-estar social a todos.
+Este projeto será realizado pelo desenvolvedor <a href="https://github.com/Eliabe-Ribeiro-22">Eliabe Mota</a> com objetivo de ajudar uma **associação** civil de direito privado, de caráter beneficente, localizada na cidade de Lages, chamada Associação **Palavra de Vida**. 
 
-Nele o visitante conseguirá visualizar as ações desenvolvidas pela entidade, bem como a sua visão, missão, seu objetivo, seus valores e sua meta.
-Além disso, ele poderá entrar em contato com a instituição através de um formulário apropriado, caso queira ser um sócio-contribuinte.
+Ela tem a meta de arrecadar fundos para adquirir literaturas a serem distribuídas gratuitamente e realizar atividades sociais a pessoas carentes. Por isso, ela é destinada a atender pessoas de todas as idades com literaturas educativas e promover o bem-estar social a todos.
+
+Sua fundação foi em 2023. E já distribuiu mais de 100 Bíblia, apesar de ser tão recente.
+
+Neste site o visitante consegue visualizar as ações desenvolvidas pela entidade, bem como a sua visão, missão, seu objetivo, seus valores e sua meta, assim como a história da associação.
+
+Além disso, ele pode entrar em contato com a instituição através de um formulário apropriado, caso queira ser um sócio-contribuinte.
 
 <h2 name="estrutura"> Estrutura do projeto  </h2>
-O projeto será totalmente responsivo e seguirá a arquitetura REST.
+O projeto é totalmente responsivo e segue a arquitetura REST.
 
-Será adicionado sistema de mensageria, dando assim a funcionalidade para o formulário de contato da associação.
+Foi adicionado sistema de mensageria, dando assim a funcionalidade para o formulário de contato da associação.
 
+Foi utilizado várias linguagens de programação para criação do site, a exemplo de PHP, JavaScript, HTML e CSS.
 <p align="right">(<a href="#indice">voltar ao indice</a>)</p>
 
 ## Tecnologias utilizados
 
-![Logo do Laravel](public/assets/img/logo-laravel.png)
 - Laravel
 - Arquitetura REST
 - Envio de email, em que o visitante pode escolher se quer ser contactado por e-mail ou telefone
@@ -44,4 +49,4 @@ Será adicionado sistema de mensageria, dando assim a funcionalidade para o form
 
 Site online: <https://ap-vida.com>
 
-<p align="right">(<a href="#indice">voltar ao indice</a>)</p>
+<p align="right">(<a href="#indice">voltar ao índice</a>)</p>
