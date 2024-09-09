@@ -11,7 +11,7 @@
     {{-- Fonts --}}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     
-    <title>Palavra de Vida</title>
+    <title>@yield('titulo')</title>
 
     {{-- Icon --}}
     <link rel="icon" type="image/x-icon" href="/ap-vida-not_bg.ico">

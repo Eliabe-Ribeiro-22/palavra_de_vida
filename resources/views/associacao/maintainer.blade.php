@@ -1,5 +1,5 @@
 @extends('layouts.templateIgreja')
-@section('titulo', 'Início')
+@section('titulo', 'Mantenedor')
 
 @section('corpo')
     <h1 id="formContato-title">Seja um mantenedor deste projeto:</h1>
