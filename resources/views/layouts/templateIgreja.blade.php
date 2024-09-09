@@ -3,7 +3,7 @@
 
 <x-associacao.nav.nav />
 
-<main>
+<main id="teste">
     @if(session('msg'))
         <p class="mensagem">{{ session('msg') }}</p>
     @endif

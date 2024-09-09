@@ -11,6 +11,8 @@
 /* página inicial */
 @import 'pagina-inicial.css';
 
+@import 'pagina_sobre.css';
+
 /* formulário Seja Mantenedor */
 @import 'form-contato.css';
 

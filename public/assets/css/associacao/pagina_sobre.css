@@ -1,0 +1,16 @@
+.text_center{
+	text-align: center;
+}
+
+#text_page_sobre{
+	color: var(--text-site);
+}
+
+.video_page_sobre{
+	width: 50%;
+	margin: 0 25%;
+	margin-top: 50px;
+
+	border: 10px solid black;
+	border-radius: 20px;
+}
