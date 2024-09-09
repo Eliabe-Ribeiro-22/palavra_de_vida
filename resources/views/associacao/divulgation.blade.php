@@ -19,11 +19,7 @@
 <h2 id="divulgacao-title">
     Bíblias oficiais da Associação Palavra de Vida   
 </h2>
-<img src="/assets/img/entrega-biblias/biblia-em-grupo.jpeg">
-
-
-<h2> Colocar video-para-site-palavra-de-vida.mp4</h2>
-<h2>Colocar video-com-recebedor-biblia.mp4</h2>
+<img src="/assets/img/entrega-biblias/biblia-em-grupo.jpeg" id="imagem_biblia_grupo_pgDivulgation">
 
 <!-- modelos de textos com imagens - DESATIVADOS -->
 {{-- <h2 id="divulgacao-title" style="">Eventos realizados pelo Palavra de Vida</h2> --}}
