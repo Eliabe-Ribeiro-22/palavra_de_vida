@@ -9,6 +9,7 @@
     <i class="material-icons" id="burger" onclick="clickMenu()">menu</i>
     <ul class="links" id="links">
         <li class="nav-btn"><a href="{{ route('main.page') }}">Início</a></li>
+        <li class="nav-btn"><a href="{{ route('sobre.page') }}">Sobre Nós</a></li>
         <li class="nav-btn"><a href="{{ route('maintainer.page') }}">Mantenedor</a></li>
         <li class="nav-btn"><a href="{{ route('divulgation.page') }}">Divulgação</a></li>
     </ul>

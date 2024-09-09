@@ -15,6 +15,10 @@ class PdAController extends Controller
     public function divulgationPg () {
         return view('associacao.divulgation');
     }
+
+    public function SobrePg (){
+        return view('associacao.sobre_nos');
+    }
     
     public function maintainer(){
             return view('associacao.maintainer');

@@ -10,6 +10,8 @@ use App\Http\Controllers\PdAController;
 Route::get('/', [PdaController::class, 'mainPg'])->name('main.page');
 // Rotas da barra de navegação
 Route::get('/divulgacao', [PdaController::class, 'divulgationPg'])->name('divulgation.page');
+Route::get('/sobre', [PdaController::class, 'SobrePg'])->name('sobre.page');
+
 
 // Formulário para o visitante tornar-se sócio-contribuinte
 Route::get('/mantenedor', [PdaController::class, 'maintainer'])->name('maintainer.page');
