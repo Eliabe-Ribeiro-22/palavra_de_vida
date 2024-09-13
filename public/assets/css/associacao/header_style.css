@@ -23,6 +23,10 @@ header{
     cursor: default;
 }
 
+a#descritivo_hambuguer {
+    display: none;
+}
+
 .links {
     display: flex;
     justify-content: space-around;
@@ -56,6 +60,17 @@ header{
 }
 
 @media screen and (max-width:800px) {
+    a#descritivo_hambuguer {
+            display: flex;
+            text-decoration: none;
+            font-size: 21px;
+            color: #e2e2e2;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+
+
+
     #links{
         list-style-type: none;
         visibity: hidden;
