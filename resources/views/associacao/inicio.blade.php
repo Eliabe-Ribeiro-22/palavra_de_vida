@@ -5,7 +5,7 @@
 
 @section('corpo')
 <div class="slogan-inicio">
-    <img src="/assets/img/logo-ap-vida.png" alt="Logo do Palavra de Vida">
+    <img src="/assets/img/logo-ap-vida.png" alt="Logo do Palavra de Vida" id="imagem_ApVida">
     <h1>Seja bem-vindo ao site!</h1>
 </div>
 
