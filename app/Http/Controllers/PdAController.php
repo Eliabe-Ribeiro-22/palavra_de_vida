@@ -20,6 +20,10 @@ class PdAController extends Controller
         return view('associacao.sobre_nos');
     }
     
+    public function diretoriaPg(){
+        return view('associacao.diretoria');
+    }
+
     public function maintainer(){
             return view('associacao.maintainer');
     }

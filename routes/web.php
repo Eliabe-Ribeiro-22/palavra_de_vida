@@ -11,6 +11,7 @@ Route::get('/', [PdaController::class, 'mainPg'])->name('main.page');
 // Rotas da barra de navegação
 Route::get('/divulgacao', [PdaController::class, 'divulgationPg'])->name('divulgation.page');
 Route::get('/sobre', [PdaController::class, 'SobrePg'])->name('sobre.page');
+Route::get('/diretoria', [PdaController::class, 'diretoriaPg'])->name('diretoria.page');
 
 
 // Formulário para o visitante tornar-se sócio-contribuinte

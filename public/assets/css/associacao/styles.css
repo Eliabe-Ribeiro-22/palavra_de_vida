@@ -32,6 +32,8 @@
 /* mensgagem após envio de email */
 @import 'message-after-email.css';
 
+@import 'diretoria_pagina.css';
+
 #div_imgValores-text{
     display: flex;
     align-items: center;

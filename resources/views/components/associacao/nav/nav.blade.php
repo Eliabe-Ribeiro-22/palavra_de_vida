@@ -8,13 +8,15 @@
     
     <a href="#" id="descritivo_hambuguer">Menu de navegação</a>
     <i class="material-icons" id="burger" onclick="clickMenu()">menu</i>
-    
-    <ul class="links" id="links">
-        <li class="nav-btn"><a href="{{ route('main.page') }}">Início</a></li>
-        <li class="nav-btn"><a href="{{ route('sobre.page') }}">Sobre Nós</a></li>
-        <li class="nav-btn"><a href="{{ route('maintainer.page') }}">Mantenedor</a></li>
-        <li class="nav-btn"><a href="{{ route('divulgation.page') }}">Divulgação</a></li>
-    </ul>
+    <nav>
+        <ul class="links" id="links">
+            <li class="nav-btn"><a href="{{ route('main.page') }}">Início</a></li>
+            <li class="nav-btn"><a href="{{ route('sobre.page') }}">Sobre Nós</a></li>
+            <li class="nav-btn"><a href="{{ route('divulgation.page') }}">Divulgação</a></li>
+            <li class="nav-btn"><a href="{{ route('maintainer.page') }}">Mantenedor</a></li>
+            <li class="nav-btn"><a href="{{ route('diretoria.page') }}">Diretoria</a></li>        
+        </ul>
+    </nav>
 
     {{-- Navbar script --}}
     <script type="text/javascript" src="/assets/js/novo-design/navbar.js"></script> 
