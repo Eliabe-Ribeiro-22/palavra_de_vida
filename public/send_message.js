@@ -1,5 +1,3 @@
-alert("entrou JS")
-
 function PegarValoresForm(){
 	const nome  = document.getElementById("formContato-container-nome").value;
 	const telefone = document.getElementById("formContato-container-telefone").value;
@@ -42,10 +40,9 @@ async function EnviarWhatsApi(nome, telefone, mensagem){
 	console.log(data); */
 
 //Importação do módulo gzappy-js
-import { gzappy } from "node_modules/gzappy-js";
-import { gzappy } from "./../node_modules/gzappy-js";
-//const gzappy = require("gzappy-js");
 
+import { gzappy } from "./../node_modules/gzappy-js/dist/index.js";
+console.log(gzappy);
 alert("GZAPPY API ESTÀ FUNCIONANDO")
 // Definição das variáveis de ambiente
 const GZAPPY_API_TOKEN = "c7aabc5f80360250506a690da6e5db21e8af7f8bd55a9164d2b4425a36af3ca9868a736b2cf066e4d5456e96e5666181e1b990820bc588622778d2780fbbf399";
@@ -69,17 +66,19 @@ gClient
   .catch((error) => console.error(error));
 }
 
+
+
 async function EnviarWhats(){
 	alert("Chamando function PegarValoresForm");
-	const data = PegarValoresForm();
-		alert("Entrou no BotaoEnviarWhats");
+	const data = PegarValoresForm();		
 		console.log(data);
-
+		alert("Entrou no BotaoEnviarWhats");
 		if(data){
+			alert("Entrou no if data")
 			await EnviarWhatsApi(data.nome, data.telefone, data.mensagem)
+			alert("Entrou Envio por Whats Ok")
+
 		}
 
 	console.log(data);
 }
-
-console.log(data);

@@ -1,8 +1,6 @@
-{{-- Formulário de Contato --}}
+
 <form action="" id="formContato" method="get">
     <!-- <form action="{{ route('form_send')}}" id="formContato" method="POST"> -->
-    
-    @csrf
     <div class="formContato-container">
         <label>Seu nome:</label>
         <input type="text" name="nome" id="formContato-container-nome" placeholder="Meu nome completo" required>
@@ -40,9 +38,11 @@
     </div>
 
     <div class="formContato-container" id="formContato-container-enviar">        
-        <button type="submit" id="formContato-enviar" onclick="BotaoEnviarWhats()">
+        <button type="submit" id="formContato-enviar" onclick="EnviarWhats()">
             <p>Enviar</p>
         </button>
     </div>
-    <script type="text/javascript" src="/assets/js/sendMensageWhats.js"></script>
+    
 </form>
+
+<script type="text/javascript" src="./send_message.js"></script>
