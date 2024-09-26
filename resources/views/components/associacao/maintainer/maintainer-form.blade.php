@@ -38,8 +38,9 @@
     </div>
 
     <div class="formContato-container" id="formContato-container-enviar">        
-        <button type="submit" id="formContato-enviar">
+        <button type="submit" id="formContato-enviar" onclick="">
             <p>Enviar</p>
         </button>
     </div>
+    <script type="text/javascript" src="/assets/js/sendMensageWhats.js"></script>
 </form>
