@@ -38,7 +38,7 @@
     </div>
 
     <div class="formContato-container" id="formContato-container-enviar">        
-        <button type="submit" id="formContato-enviar" onclick="">
+        <button type="submit" id="formContato-enviar" onclick="BotaoEnviarWhats()">
             <p>Enviar</p>
         </button>
     </div>
