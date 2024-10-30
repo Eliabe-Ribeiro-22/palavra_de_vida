@@ -40,9 +40,9 @@
     </div>
 
     <div class="formContato-container" id="formContato-container-enviar">        
-        <button type="submit" id="formContato-enviar" onclick="BotaoEnviarWhats()">
+        <button type="submit" id="formContato-enviar" onclick="envio_whats()">
             <p>Enviar</p>
         </button>
     </div>
-    <script type="text/javascript" src="/assets/js/sendMensageWhats.js"></script>
+    <script type="text/javascript" src="/assets/js/envio_whats.js"></script>
 </form>
