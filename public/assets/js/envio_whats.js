@@ -1,14 +1,19 @@
-const GZAPPY_API_TOKEN = "e0b5cca5a30487ea3a50bd5b2166965825c35bb48a0fb2dfb74520aba4a8adcff3b54f9757c3aa7ae0e528f75e8d066c49b1149ac78e12f549ffb101097bb5b1";
-const GZAPPY_INSTANCE_ID = "JYJBND8MTY70BNFB2XZDXRC0";
-const GZAPPY_URL = "https://api.gzappy.com/v1/message/send-message";
+
+let inpnome  = document.getElementById("formContato-container-nome")
+let inptelefone = document.getElementById("formContato-container-telefone")
+let inpemail = document.getElementById("formContato-container-email")
+let inpmensagem = document.getElementById("formContato-container-mensagem")
+let inpbtnSubmit = document.getElementById("formContato-enviar");
+let inpcampo; //telefone ou email
 
 async function envio_whats(){
-	const nome  = document.getElementById("formContato-container-nome").value;
-	const telefone = document.getElementById("formContato-container-telefone").value;
-	const email = document.getElementById("formContato-container-email").value;
-	const mensagem = document.getElementById("formContato-container-mensagem").value;
-	const btnSubmit = document.getElementById("formContato-enviar");
-	let campo; //telefone ou email
+	let nome = inpnome.value;
+	let telefone = inptelefone.value;
+	let email = inpemail.value;
+	let mensagem = inpmensagem.value;
+	
+	
+
 	if(nome == "" || typeof nome !== "string"){
 		alert("Digite seu nome")
 		return;
@@ -19,14 +24,26 @@ async function envio_whats(){
 	}
 	if (email = "") {
 		campo = telefone;
+		alert("Campo recebeu telefone")
 	}
 	if (telefone == "") {
 		campo = email;
+		alert("Campo recebeu email")
 	}
 	try{
+		alert(nome)
+		alert(telefone)
+		alert(email)
+		alert(mensagem)
+		alert("entrou try")
+		const GZAPPY_API_TOKEN = "850cb51bda92317d7e9752188729a3f63cf4159b4ba7c3ab3e12dffd04f7bb88456ac483098704ee128b2b032d3342bbf58b398c7da6432efbfe6e49b9370354";
+		const GZAPPY_INSTANCE_ID = "JYJBND8MTY70BNFB2XZDXRC0";
+		const GZAPPY_URL = "https://api.gzappy.com/v1/message/send-message";
+
 		alert("Enviando mensagem");
 		btnSubmit.disabled = true;
 		btnSubmit.innerHTML = "Enviando mensagem ...";
+		alert("enviando mensagem ...")
 		const response = await fetch(GZAPPY_URL, {
 	  		method: 'POST',
   			headers: {
@@ -35,12 +52,15 @@ async function envio_whats(){
   			},
   			body: JSON.stringify({
 	    	instance_id: GZAPPY_INSTANCE_ID,
-	    	message: [nome, telefone, email],
+	    	//message: [nome, campo],
+	    	message: [nome],
 	    	phone: ["5549988477611", "5549988967075"]
   			})
 		})
+		alert("envio de mensagem com algum staus code")
 		const data = await response.json()
 		console.log(data)
+		alert(data)
 		alert("mensagem enviada com sucesso")
 	}catch(error){
 		alert("Erro ao enviar mensagem" . error);

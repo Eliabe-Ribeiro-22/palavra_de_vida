@@ -13,7 +13,7 @@ Route::get('/divulgacao', [PdaController::class, 'divulgationPg'])->name('divulg
 Route::get('/sobre', [PdaController::class, 'SobrePg'])->name('sobre.page');
 Route::get('/diretoria', [PdaController::class, 'diretoriaPg'])->name('diretoria.page');
 
-
+Route::get("/new_form", [PdaController::class, "new_form"]);
 // Formulário para o visitante tornar-se sócio-contribuinte
 Route::get('/mantenedor', [PdaController::class, 'maintainer'])->name('maintainer.page');
 Route::post('/sendForm', [PdaController::class, 'sendForm'])->name('form_send');
